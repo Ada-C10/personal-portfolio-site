@@ -1,0 +1,15 @@
+/* Dark Green: #1A535C */
+/*Bright Green: #4ECDC4 */
+/* White-ish: #F7FFF7 */
+/*Orange: #FF6B6B */
+/* Yellow: #FFE66D */
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-size: 35px;
+}
+
+h1, h2, h3, h4 {
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+  font-size: 16px;
+}
