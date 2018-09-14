@@ -28,7 +28,6 @@ a {
 
 nav {
   height: 20%;
-  border: 2px solid red;
   width: auto;
   padding: 3rem 0;
   display: flex;
@@ -56,4 +55,20 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 3rem 0;
+  text-align: center;
+  font-stretch: semi-expanded;
+  font-style: italic;
+  color: #FF6B6B;
+}
+
+sub {
+  display: block;
+  padding: 2rem;
+  color: #1A535C;
+  font-weight: 600;
 }
