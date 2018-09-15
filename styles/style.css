@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Basic');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+
+/* body {
+
+   */
+
+body {
+  font-family: 'Basic';
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 3fr 3fr;
+  grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  /* grid-gap: 10px;       /* shorthand for grid-row-gap and grid-column-gap */ */
+  height: 100vh;
+  margin: 0;
+}
+
+#nav-bar {
+  grid-row: 1;
+  grid-column: 1 / 6;
+  background: white;
+  /* height: 10px; */
+}
+
+#nav-bar ul{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#nav-bar li {
+  list-style: none;
+  padding: 2em;
+  /* margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 1em;
+  font-size: 1em; */
+}
+
+#nav-bar li:first-of-type {
+  font-family: 'Oleo Script';
+  margin-right: auto;
+}
+
+#info {
+  grid-row: 3 / 5;          /* see notes below */
+  grid-column: 1;   /* see notes below */
+  background-color: crimson;
+  z-index: 1;
+  width: 300px;
+  border-radius: 8px;
+}
+#footer {
+  grid-row: 4 / 6;
+  grid-column: 1 / 6;
+  padding: 7em;
+  height: 300px;
+  border: solid black 4px;
+}
+
+#footer section {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  align-items: flex-end;
+}
+
+#footer section ul {
+  display: flex;
+  align-content: space-between;
+}
+
+#footer li {
+  list-style: none;
+  padding: 2em;
+
+}
+
+#footer .instagram:hover {
+  color: blue;
+}
+
+#footer img{
+  width: 50px;
+}
+
+#top {
+  grid-row: 2 / 4;
+  grid-column: 1 / 6;
+  padding: 2em;
+  background-image: url("http://anne-crea.com/annecrea/12145-nature-pictures-for-desktop-background_32291.jpg");
+  border-bottom: solid black 8px;
+  border-top: solid black 15px;
+  text-align: center;
+
+}
+
+#top p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  color: black;
+}
+
+#top p:first-of-type {
+  margin-top: 3rem;
+  font-size: 3em;
+}
+
+#profile-photo {
+  grid-row: 3 / 5;
+  grid-column: 3 / 4;
+  background-color: pink;
+  z-index: 1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 2px #aaaaaa;
+  width: 25em;
+}
