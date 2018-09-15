@@ -1,0 +1,58 @@
+nav{
+  background-color: rgb(44, 37, 47);
+}
+
+nav a{
+  color: white;
+}
+
+nav ul{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* .greeting {
+  animation-name: color_change;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  width: 100vw;
+  height: 50vh;
+}
+
+@keyframes color_change {
+  0% { background-color: rgb(19, 187, 232);
+      opacity: .4}
+  25% { background-color: rgb(124, 210, 203);
+      opacity: .4}
+  50% { background-color: rgb(156, 134, 231);
+      opacity: .6}
+  75% { background-color: rgb(244, 153, 181);
+      opacity: .4}
+  100% { background-color: rgb(238, 237, 119);
+      opacity: .6}
+}
+
+.greeting h2{
+  margin-top: 0px;
+}
+
+.greeting h3{
+  animation-name: move_letter;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+  position: relative;
+} */
+
+/* @keyframes move_letter { */
+        /* y-axis : x-axis */
+  /* from { top: 45vh; left: 0; }
+  to { top: 45vh; left: 40vw; } */
+  /* 0% { top:  }
+  25% { top: 30px; }
+  50% { top: 60px; }
+  75% { top: 30px; }
+  100% { top: 0px; }
+} */

@@ -1,0 +1,18 @@
+nav > ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+nav li{
+  list-style-type: none;
+  font-family: 'Muli', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+nav a:hover{
+  color: red;
+}
