@@ -1,0 +1,55 @@
+body{
+  background-color: #F9EBE0;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #0D2149;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h1{
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 800;
+  font-size: 4em;
+}
+
+header{
+  padding: 2em 2em;
+  background-image: url("../images/mount-rainier-1491077323zCq.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+}
+header sub{
+display: block;
+font-size: 1em;
+color: #F9EBE0
+}
+
+nav > ul{
+
+  list-style: none;
+  display: flex;
+}
+
+.about{
+  margin-right: auto;
+
+}
+
+.hikes{
+  margin-left: auto;
+  padding-right: 2em;
+}
+
+footer > ul{
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+}
