@@ -1,0 +1,27 @@
+main{
+  width: 100vw;
+  height: 86vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+article{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  border: 5px solid green;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; */
+}
+
+aside{
+  grid-column: 3/4;
+  grid-row: 1/2;
+  border: 5px solid green;
+}
+
+p{
+  color: red;
+}
