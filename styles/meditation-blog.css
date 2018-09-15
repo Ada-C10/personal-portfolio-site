@@ -9,10 +9,14 @@ main {
 
 }
 
+h3 {
+  font-size: 150%;
+}
+
 article {
   display: flex;
   flex-direction: column;
-  border: dotted pink 2px;
+  border-bottom: dotted pink 5px;
 
 }
 article ul {
@@ -37,9 +41,6 @@ p {
   align-self: flex-end;
 }
 
-h1 {
-  text-align: center;
-}
 h3, p {
   padding-left: 10%;
 }
