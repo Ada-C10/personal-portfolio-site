@@ -18,17 +18,18 @@ html, body {
   padding: 10px;
   font-weight: 500;
   font-size: 1.5em;
+  font-family: sans-serif;
 }
 
 .nav-container a:link, a:visited {
   text-decoration: none;
-  color: white;
+  color: #F6DCCA;
 }
 
 .nav-container a:hover, a:active {
   text-decoration: underline;
   font-size: 1.75em;
-  color: #667761;
+  color: #364A66;
   transition: .33s;
 }
 
@@ -37,21 +38,36 @@ html, body {
   display: flex;
   justify-content: center;
   height: 100%;
+  margin-left: -10%;
 }
 
 .intro h1 {
+  display: inline-block;
   font-size: 8em;
-  margin-top: 50%;
+  margin-top: 30%;
+  text-align: center;
+  color: #364A66;
+  /* text-decoration: underline; */
+  border-bottom-style: solid;
+  border-bottom-color: #364A66;
+  font-family: 'Cormorant', serif;
+  font-style: bold;
 }
 
 .intro h3 {
-  display: flex;
-  justify-content: center;
-  margin-top: -10%;
-  font-size: 3em;
-  text-align: center;
+  /* display: flex;
+  justify-content: center; */
+  margin-top: -13%;
+  font-size: 3.5em;
+  font-weight: 100;
+  text-align: left;
+  color: #F6DCCA;
+  font-family: sans-serif;
 }
 
 .intro p {
   text-align: right;
+  margin-top: 10%;
+  color: #F6DCCA;
+  font-family: sans-serif;
 }
