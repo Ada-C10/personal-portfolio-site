@@ -1,0 +1,18 @@
+h1 {
+  padding-left: 3%;
+}
+
+ul a {
+  display: flex;
+}
+
+ul a h3 {
+  border: solid 2px pink;
+  border-width:medium;
+  border-radius: 10%;
+}
+
+ul a h3:hover {
+  background-color: maroon;
+  color: white;
+}
