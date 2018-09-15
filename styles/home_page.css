@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 80vh;
+  height: 86vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,16 +44,4 @@
   80% { opacity: .4}
   80% { opacity: .2}
   100% { opacity: 0}
-}
-
-footer{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding-left: 3vw;
-  font-family: 'Muli', sans-serif;
-  letter-spacing: .5px;
-  border-top: 2px solid rgb(44, 37, 47);
-  border-bottom: 2px solid rgb(44, 37, 47);
-  background-color: #635562;
 }

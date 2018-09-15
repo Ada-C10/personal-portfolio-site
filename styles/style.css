@@ -1,5 +1,6 @@
 nav{
   background-color: rgb(44, 37, 47);
+  height: 7vh;
 }
 
 nav a{
@@ -12,8 +13,9 @@ nav a:hover{
 
 nav > ul{
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 15px;
@@ -28,4 +30,21 @@ nav li{
 
 a:link {
     text-decoration: none;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 3vw;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .5px;
+  color: white;
+  background-color: rgb(44, 37, 47);
+  height: 7vh;
+}
+
+footer i{
+  color: white;
 }
