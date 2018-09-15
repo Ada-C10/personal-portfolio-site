@@ -42,7 +42,7 @@ footer{
   letter-spacing: .5px;
   color: white;
   background-color: rgb(44, 37, 47);
-  height: 7vh;
+  min-height: 7vh;
 }
 
 footer i{
