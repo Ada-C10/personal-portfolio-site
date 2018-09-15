@@ -4,28 +4,47 @@ main{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
+  background-color: rgb(235, 247, 247);
 }
 
+header a:hover{
+  color: rgb(18, 164, 246);
+}
 article{
   grid-column: 1/3;
   grid-row: 1/2;
-  border: 5px solid green;
   padding: 40px;
+}
+
+article h3{
+  font-family: 'Niconne', cursive;
+  font-size: 2.5em;
+  letter-spacing: .5px;
+}
+
+section{
+  line-height: 1.6;
 }
 
 aside{
   grid-column: 3/4;
   grid-row: 1/2;
-  padding-top: 40px;
-  border: 5px solid green;
+  padding-top: 80px;
 }
 
 aside img{
   border-radius: 50%;
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 
 p{
-  color: red;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(44, 37, 47);
+  font-size: 1.1em;
+}
+
+p a{
+  color: rgb(18, 164, 246);
+  font-style: italic;
 }
