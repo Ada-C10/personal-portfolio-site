@@ -24,8 +24,8 @@ header{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-
 }
+
 header sub{
 display: block;
 font-size: 1em;
@@ -33,14 +33,23 @@ color: #F9EBE0
 }
 
 nav > ul{
-
   list-style: none;
   display: flex;
+
 }
+
+nav ul a{
+  text-decoration: none;
+  color: #208AAE;
+}
+
+nav ul a:hover{
+  color: #0D2149;
+}
+
 
 .about{
   margin-right: auto;
-
 }
 
 .hikes{
@@ -48,8 +57,8 @@ nav > ul{
   padding-right: 2em;
 }
 
-footer > ul{
-  list-style: none;
-  display: flex;
+footer {
+  padding-top: 5em;
   font-size: 15px;
+  color: #208AAE;
 }

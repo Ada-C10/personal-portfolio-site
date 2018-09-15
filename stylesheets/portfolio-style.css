@@ -1,0 +1,39 @@
+h1{
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+.projects ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+}
+
+.oorideshare{
+  grid-area: a;
+}
+
+.solarsystem{
+  grid-area: b;
+}
+
+.grocerystore{
+  grid-area: c;
+}
+
+.rideshare{
+  grid-area: d;
+}
+
+.randommenu{
+  grid-area: e;
+}
+
+.calulator{
+  grid-area: f;
+}
