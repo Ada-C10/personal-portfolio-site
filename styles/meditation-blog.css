@@ -1,12 +1,40 @@
-
+/* * {
+  border: solid 1px red;
+} */
 
 main {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+
 }
 
 article {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  border: dotted pink 2px;
+
+}
+article ul {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: space-around;
+
+
+}
+p {
+  line-height: 150%;
+}
+.poem p{
+  line-height: 200%;
+  text-align: center;
+}
+.date {
+  align-self: flex-start;
+}
+
+.time {
+  align-self: flex-end;
 }
 
 h1 {
@@ -14,9 +42,4 @@ h1 {
 }
 h3, p {
   padding-left: 10%;
-}
-article ul {
-  display: flex;
-  flex-direction: flex-start;
-  justify-content: space-around;
 }
