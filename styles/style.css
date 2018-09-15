@@ -1,7 +1,23 @@
+nav{
+  background-color: rgb(44, 37, 47);
+}
+
+nav a{
+  color: white;
+}
+
+nav a:hover{
+  color: rgb(232, 128, 31);
+}
+
 nav > ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 nav li{
@@ -12,8 +28,4 @@ nav li{
 
 a:link {
     text-decoration: none;
-}
-
-nav a:hover{
-  color: red;
 }
