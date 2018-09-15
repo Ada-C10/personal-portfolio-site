@@ -6,11 +6,12 @@
 
 
 
-* {
+/* * {
   font-family: 'Cabin', sans-serif;
   list-style-type: none;
   box-sizing: border-box;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   Font-Family: 'Roboto Condensed', Sans-Serif;
@@ -50,11 +51,12 @@ nav a {
 }
 
 header {
-  height: 50%;
+  /* height: 60%; */ /*
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding: 2rem;
 }
 
 h1 {
@@ -72,3 +74,18 @@ sub {
   color: #1A535C;
   font-weight: 600;
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10%;
+  padding: 2rem;
+  background-color: #1A535C;
+}
+
+small {
+  color: #FF6B6B;
+}
+*/
