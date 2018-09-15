@@ -1,0 +1,22 @@
+
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  display: grid;
+}
+
+h1 {
+  text-align: center;
+}
+h3, p {
+  padding-left: 10%;
+}
+article ul {
+  display: flex;
+  flex-direction: flex-start;
+  justify-content: space-around;
+}
