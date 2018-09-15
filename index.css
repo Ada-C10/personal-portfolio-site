@@ -30,7 +30,7 @@ html, body {
   text-decoration: underline;
   font-size: 1.75em;
   color: #364A66;
-  transition: .33s;
+  transition: all 350ms ease;
 }
 
 /* intro section */
@@ -43,21 +43,21 @@ html, body {
 
 .intro h1 {
   display: inline-block;
+  font-family: 'Cormorant', serif;
+  font-style: bold;
+  letter-spacing: 30px;
   font-size: 8em;
   margin-top: 30%;
   text-align: center;
   color: #364A66;
-  /* text-decoration: underline; */
   border-bottom-style: solid;
   border-bottom-color: #364A66;
-  font-family: 'Cormorant', serif;
-  font-style: bold;
 }
 
 .intro h3 {
   /* display: flex;
   justify-content: center; */
-  margin-top: -13%;
+  margin-top: -8%;
   font-size: 3.5em;
   font-weight: 100;
   text-align: left;
