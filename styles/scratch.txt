@@ -1,0 +1,21 @@
+fonts
+<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Codystar|Monoton|Poiret+One|Source+Code+Pro|Space+Mono" rel="stylesheet">
+
+
+Specify in CSS
+Use the following CSS rules to specify these families:
+font-family: 'Source Code Pro', monospace;
+font-family: 'Monoton', cursive;
+font-family: 'Bungee Shade', cursive;
+font-family: 'Codystar', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Space Mono', monospace;
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Codystar|Monoton|Poiret+One|Source+Code+Pro|Space+Mono');
+</style>
+
+colors
+#ffbd19 mustard
+#4fecf7 teal
+#33cbd6 darker teal
