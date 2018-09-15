@@ -1,0 +1,23 @@
+* {
+  border: 1px solid black;
+}
+
+body {
+  height: 100%;
+  background-color: tomato;
+}
+
+.body-container {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+}
+
+/* nav section */
+.nav-container li {
+  list-style: none;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+/* intro section */
