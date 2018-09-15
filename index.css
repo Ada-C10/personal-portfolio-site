@@ -2,14 +2,14 @@
   border: 1px solid black;
 } */
 
-body {
+html, body {
   height: 100%;
   background-color: tomato;
 }
 
 .body-container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
 }
 
 /* nav section */
@@ -27,8 +27,31 @@ body {
 
 .nav-container a:hover, a:active {
   text-decoration: underline;
-  font-size: 2em;
+  font-size: 1.75em;
   color: #667761;
+  transition: .33s;
 }
 
 /* intro section */
+.intro {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.intro h1 {
+  font-size: 8em;
+  margin-top: 50%;
+}
+
+.intro h3 {
+  display: flex;
+  justify-content: center;
+  margin-top: -10%;
+  font-size: 3em;
+  text-align: center;
+}
+
+.intro p {
+  text-align: right;
+}
