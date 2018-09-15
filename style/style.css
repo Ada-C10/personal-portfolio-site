@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  color: gold;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  background: url(http://hdblackwallpaper.com/wallpaper/2015/07/black-and-gold-wallpaper-iphone-22-background.jpg);
+}
+
+header {
+    padding: 5em;
+    grid-column: 1 /span 5;
+    grid-row: 1 /span 1;
+}
+
+header h1, header h2 {
+  text-align: center;
+}
+
+.contents-list div{
+  font-size: 1.5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+footer {
+
+}
