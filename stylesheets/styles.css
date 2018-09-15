@@ -1,0 +1,66 @@
+nav a:hover {
+  background-color: peachpuff;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  border-radius: 100%;
+  width: 15rem;
+  height: 15rem;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 5rem;
+  padding: 10rem 2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 25rem 25rem;
+  grid-column-gap: 5%;
+  grid-row-gap: 5%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+img.sideways {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 5%;
+  object-fit: cover;
+  margin: 2rem 2rem;
+}
