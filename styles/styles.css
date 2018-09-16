@@ -1,11 +1,14 @@
-* {
-    border: solid black 1px;
-}
+/* * {
+    border: solid pink 1px;
+} */
 
 body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  background-color: black;
+  color: #696D79;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 header {
@@ -26,15 +29,32 @@ main {
 h1.name {
   font-family: 'Londrina Shadow', cursive;
   font-size: 5rem;
+  color: #B0D0D3;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #70ffff, 0 0 20px #46fdff, 0 0 40px #46fdff;
 }
 
-h1.name:hover {
-  background: linear-gradient(to right, #B0D0D3, #F7AF9D, #6F9283);
+/* h1.name:hover {
+  color: #B0D0D3;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #70ffff, 0 0 20px #46fdff, 0 0 40px #46fdff;
+} */
+
+.books {
+
 }
 
 .favorites {
   padding: 0 10%;
   margin: 0 10%;
+}
+
+h2:hover {
+  color: #F7AF9D;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #fce7e1, 0 0 20px #facfc4, 0 0 40px #facfc4;
+}
+
+h3:hover {
+  color: #E6E1C5;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #f5f3e7, 0 0 20px #f0eddc, 0 0 40px #f0eddc;
 }
 
 p.aboutme {
@@ -53,4 +73,8 @@ section.pseudofooter {
 
 ul {
   list-style: none;
+}
+
+@keyframes buzzzz {
+  
 }

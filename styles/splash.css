@@ -1,6 +1,7 @@
 body {
   display: grid;
-  grid-template-rows: repeat(3, 1fr)
+  grid-template-rows: repeat(3, 1fr);
+  background-color: black;
 }
 
 .name {
@@ -11,25 +12,68 @@ body {
   font-size: 20rem;
   justify-content: center;
   align-items: space-around;
-
+  /* background: linear-gradient(135deg, #e6e1c5 0%,#b0d0d3 47%,#f7af9d 100%);
+  border-radius: 10% 100% / 100%; */
 }
 
-div.l:hover {
-  display: '../images/l.png'
+a {
+  text-decoration: none;
+  color: white;
 }
-
-/*
-.slide .l {
-  animation: slide 5s infinite ease-out;
-  transform-origin: 0% 7rem;
-} */
 
 .name div.l {
+  color: white;
   animation: slide 1s 1 ease-in;
 }
 
+div.l a:hover, div.e2 a:hover{
+  color: #B0D0D3;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #70ffff, 0 0 20px #46fdff, 0 0 40px #46fdff;
+}
+
 .name div.e {
-  animation: bouncy 1s 1 ease-in;
+  color: white;
+  animation: oops-slide 3s 1 ease;
+}
+
+div.e a:hover {
+  color: #E6E1C5;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #f5f3e7, 0 0 20px #f0eddc, 0 0 40px #f0eddc;
+}
+
+.name div.a {
+  color: white;
+  animation: free-fall 3s 1 ease;
+}
+
+div.a a:hover {
+  color: #F7AF9D;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #fce7e1, 0 0 20px #facfc4, 0 0 40px #facfc4;
+}
+
+.name div.n {
+  color: white;
+  animation: weee 3s 1 ease-out;
+}
+
+div.n a:hover {
+  color: #696D79;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #b4b6bc, 0 0 20px #f0f0f1, 0 0 40px #f0f0f1;
+}
+
+.name div.n2 {
+  color: white;
+  animation: metoo 3s 1;
+}
+
+div.n2 a:hover {
+  color: #6F9283;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #a8bdb4, 0 0 20px #d3ded9, 0 0 40px #d3ded9;
+}
+
+.name div.e2 {
+  color: white;
+  animation: thefinale 3s 1 ease;
 }
 
 @keyframes slide {
@@ -39,18 +83,68 @@ div.l:hover {
    to {
     transform: translate(0rem);
   }
+  cubic-bezier(.67,.7,.26,.27);
 }
 
-@keyframes bouncy {
+@keyframes oops-slide {
   0%, 5% {
     transform: translate(-40rem);
   }
   45%, 55% {
     transform: translate(12rem);
   }
-   /* 95%, 100% {
+   95%, 100% {
     transform: translate(0rem);
+  }
+  cubic-bezier(0,.96,.99,-0.01);
+}
+
+@keyframes free-fall {
+  0%, 60% {
+    transform: translateY(-40rem);
+  }
+  /* 70% {
+    transform: rotateZ(10deg);
   } */
+  60%, 90% {
+    transform: translateY(-15rem) rotateZ(-10deg);
+  }
+  95%, 100% {
+    transform: translateY(0rem) rotateZ(30deg);
+  }
+  cubic-bezier(.28,.88,.62,.15);
+}
 
+@keyframes weee {
+  0%, 80% {
+    transform: translate(80rem);
+  }
+  90% {
+    transform: translate(10rem);
+  }
+  100% {
+    transform: translate(0rem);
+  }
+  cubic-bezier(.28,.88,.42,.9);
+}
 
+@keyframes metoo {
+  0%, 95% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes thefinale {
+  from {
+    transform: translate(40rem) rotateZ(100deg);
+    opacity: 20%;
+  }
+  to {
+    transform: translate(0rem) rotateZ(-20deg);
+    opacity: 90%;
+  }
+  cubic-bezier(.36,.24,.37,.65);
 }
