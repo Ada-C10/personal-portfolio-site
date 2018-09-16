@@ -2,7 +2,7 @@
   display: grid;
   width: auto;
   grid-template-columns: 1fr ;
-  grid-template-rows: 600px 300px;
+  grid-template-rows: 500px 500px;
 }
 
 body {
@@ -15,6 +15,16 @@ h1, h2, h3, h4, h5, h6 {
 font-family: 'Space Mono', monospace;
 }
 
+@keyframes slidein-left {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
 .background {
   grid-column: 1;
   grid-row: 1 / 3;
@@ -22,7 +32,8 @@ font-family: 'Space Mono', monospace;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -2rem;
+  height: 70%;
+  margin-top: -1rem;
   margin-left: -2rem;
   margin-right: -2rem;
   z-index: -1;
@@ -32,24 +43,28 @@ font-family: 'Space Mono', monospace;
   grid-column: 1;
   grid-row: 1;
   position: relative;
-  height: 1100px;
+  height: 800px;
   background-image: linear-gradient(rgba(225, 112, 85,.5), rgba(255, 118, 117,.3));
   clip-path: polygon(0 28%, 100% 19%, 100% 60%, 0 69%);
   margin-left: -9rem;
-  margin-top:  5rem;
+  margin-top:  9.8rem;
   margin-right: -9rem;
+  margin-bottom: -16.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  transition: 1s;
+  left: 0;
 }
 
 section#welcome-banner h1 {
   text-align: left;
-  padding: 12em 10em;
+  padding: 10em 10em;
   font-family: 'Space Mono', monospace;
   color: rgba(255, 118, 117,1.0);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25)
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  transform: rotate(-2.8deg);
 }
 
 section#welcome-banner h1>strong {
@@ -57,7 +72,7 @@ section#welcome-banner h1>strong {
   color: rgba(255, 234, 167,.8);
 }
 
-.learn-more {
+/* .learn-more {
   font-weight: bold;
   text-decoration: none;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
@@ -70,7 +85,7 @@ section#welcome-banner h1>strong {
   margin-bottom: 27em;
   margin-right: 9em;
   padding: 4px 60px;
-}
+} */
 
 
 /* BOTTOM HALF NAVIGATION CARDS */
@@ -79,9 +94,9 @@ section#welcome-banner h1>strong {
   grid-column: 1;
   grid-row: 3;
   background-color: rgba(255,255,255,0);
-  margin-top: -4px;
-  border-top: 8px dotted rgba(214, 48, 49,1.0);
   color: rgba(214, 48, 49,1.0);
+  border-top: 6px dotted rgba(214, 48, 49,1.0);
+  margin-top: -3.5rem;
 }
 
 ul {
@@ -89,7 +104,8 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
-  margin-right: 7rem;
+  margin-left: auto;
+  margin-right: auto;
   padding: 4rem 4rem;
 }
 
@@ -102,6 +118,7 @@ ul {
   width: 180px;
   font-size: 22px;
   background-color: rgba(255, 118, 117,1.0);
+  animation-duration: 3s;
 }
 .portfolio {
   text-align: center;
@@ -112,6 +129,8 @@ ul {
   width: 180px;
   font-size: 22px;
   background-color: rgba(255, 118, 117,1.0);
+  animation-duration: 1s;
+  animation-name: slidein-left;
 }
 .blog {
   text-align: center;
