@@ -61,7 +61,7 @@ body {
   text-decoration: none;
 }
 
-a.about:visited {
+a.current:visited {
   color: #f88379;
 }
 
@@ -75,7 +75,7 @@ a.about:visited {
   /* shape-image-threshold: rect(10px,60px,200px,0px); */
 }
 
-.about_me > h4 {
+.heading > h4 {
   font-family: 'Francois One', sans-serif;
   font-size: 1.5em;
   text-align: center;
@@ -85,7 +85,7 @@ a.about:visited {
   border-bottom: 2px solid black;
 }
 
-.about_me > p {
+.heading > p {
   font-family: 'Hind Siliguri', sans-serif;
   font-size: 1.25em;
   color: #A8A8A8;
@@ -94,7 +94,7 @@ a.about:visited {
   line-height: 1.5;
 }
 
-.about_me > p > a {
+.heading > p > a {
     text-decoration: none;
     color: #f88379;
 }
