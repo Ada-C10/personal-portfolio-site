@@ -1,3 +1,12 @@
+.screen_reader{
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
 nav{
   background-color: rgb(44, 37, 47);
   height: 7vh;
