@@ -1,6 +1,66 @@
 /* body {
-  margin: 0px;
+margin: 0px;
 } */
+header {
+  margin: 0;
+  padding: 10px;
+}
+
+nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav > div {
+  margin: 0px;
+  width: 140px;
+  height: 75px;
+  text-align: center;
+  border: 3px groove white;
+  border-radius: 5px;
+  padding: 2px 2px;
+}
+
+
+
+.motto {
+  border: 1px solid black;
+  width: 520px;
+  height: 180px;
+  color: white;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding: 20px;
+  display: inline-block;
+  margin-left: 400px;
+  margin-right: 400px;
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+}
+
+.quote {
+  text-align: center;
+  border-bottom: 1px solid red;
+}
+
+.quote::before {
+  content:open-quote;
+}
+.quote::after {
+  content: close-quote;
+}
+
+.quote-credit {
+  float: right;
+}
+
+.quote-credit::before {
+  content: "- "
+}
 
 .background-container {
   background-image: url("/Users/ambergriffin/Documents/Ada/week_6/personal-portfolio-site/content/pensive.jpg");
