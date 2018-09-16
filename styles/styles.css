@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+}
+
+#background {
+    /* The image used */
+    background-image: url("Death_to_Stock_Winter-Texture_6-cutout");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.column-layout{
+  display: flex;
+  justify-content: center;
+
+  background-color: red;
+  margin: 40px auto 0 auto;
+  line-height: 1.65
+  padding:250px 50px;
+  text-align: center;
+}
+
+.maincolumn{
+flex: 1;
+order: 2;
+
+}
+
+.sidebar1{
+flex: 1;
+order: 3;
+}
+
+.sidebar2{
+flex:1 ;
+order: 1;
+}
+.sidebar3{
+flex:1 ;
+order: 1;
+}
