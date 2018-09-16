@@ -1,3 +1,13 @@
+p{
+  font-family: 'Raleway', sans-serif;
+  color: rgb(44, 37, 47);
+  font-size: 1.1em;
+}
+
+section{
+  line-height: 1.6;
+}
+
 article img{
   width: 100%;
   border: 1px solid gray;
@@ -7,6 +17,14 @@ main{
   padding: 80px;
   display: flex;
   flex-direction: column;
+}
+
+main h3{
+  font-family: 'Niconne', cursive;
+  font-size: 2.5em;
+  letter-spacing: .5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 article{
