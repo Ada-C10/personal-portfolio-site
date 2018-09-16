@@ -1,0 +1,40 @@
+
+
+  * {
+  background-color: #0A090B;
+  color: #3C3B43;
+  padding-top: .50em;
+  padding-bottom: 2em;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+
+  .wrapper_1 img {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: 100%;
+    height: 200px;
+    width: auto;
+    padding-bottom: 2em;
+  }
+
+  .wrapper_2 img {
+    display: flex
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    height: 200px;
+    width: auto;
+  }
+
+
+ ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: flex-end;
+   padding-top: 8em;
+   font-size: 2em;
+ }
