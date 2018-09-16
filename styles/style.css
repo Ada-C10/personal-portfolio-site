@@ -6,6 +6,7 @@ body {
   display: grid;
   grid-template: 0.1fr 2fr 3fr 1.5fr 0.5fr / 1.5fr 1fr 2fr 4fr;
   height: 800px;
+  font-family: 'Noto Serif JP', sans-serif;
 }
 
 header {
@@ -34,7 +35,7 @@ header ul li a {
 
 .welcome {
   min-height: 6.5fr;
-  background-image: url("../images/tabletop-mute.jpg");
+  background-image: url("../images/tabletop-mute2.jpg");
   background-size: cover;
   overflow: hidden;
   grid-row: 2/5;
@@ -102,8 +103,9 @@ footer li {
   margin-right: 1em;
 }
 
-.copyright {
-
+.copyright p {
+  margin-left: -1em;
+  font-size: 15px;
 
 }
 
