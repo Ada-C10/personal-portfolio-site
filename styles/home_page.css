@@ -1,3 +1,7 @@
+nav a:hover{
+  color: #dda281;
+}
+
 
 .greeting{
   background-image: url("../images/balance.jpg");

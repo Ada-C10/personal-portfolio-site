@@ -7,10 +7,6 @@ nav a{
   color: white;
 }
 
-nav a:hover{
-  color: rgb(232, 128, 31);
-}
-
 nav > ul{
   display: flex;
   flex-direction: row;
@@ -50,7 +46,7 @@ footer h4{
   margin-bottom: 0px;
 }
 
-footer i{
+footer a{
   color: white;
   margin-left: 5px;
   margin-right: 5px;
