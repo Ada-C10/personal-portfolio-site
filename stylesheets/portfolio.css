@@ -1,0 +1,35 @@
+main {
+
+}
+.projects {
+  display: grid;
+  background-color: pink;
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr
+
+}
+
+.section-hearder {
+  background-color: yellow;
+  grid-area: hearder;
+  grid-row: 1;
+  grid-column: 1 / 4;
+  text-align: center;
+}
+
+.hotel {
+  background-color: blue;
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+.rideshare {
+    background-color: green;
+    grid-column: 2 / 4;
+    grid-row: 2;
+}
+
+.starly {
+    background-color: red;
+    grid-column: 1 / 2;
+    grid-row: 3;
+}

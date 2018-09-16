@@ -3,15 +3,13 @@ body {
     font-family: sans-serif;
 }
 
-nav {
+ nav {
   text-align: center;
-  padding-top: 5%;
-  position: fixed;
-  top: 0;
-  width: 100%;
+
+
 }
 
-ul {
+/* ul {
   list-style: none;
 }
 
@@ -22,8 +20,7 @@ nav ul {
    color: rgba(0, 35, 122, 0.5);
    font-size: 18px;
    text-decoration: none;
-   display: inline-block;
-}
+} */
 
 nav li {
    display: inline-block;
