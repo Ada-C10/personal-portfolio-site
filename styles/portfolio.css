@@ -93,7 +93,7 @@ h2 {
 
 #projects .project4:hover {
   transform: rotate(25deg);
-  background-image: url("https://pre00.deviantart.net/240e/th/pre/i/2014/013/7/0/meow___space_dandy_by_vanhiko-d723xsa.jpg");
+  background-image: url("../extra/solar-system.png");
 }
 
 #projects .project5:hover {
@@ -103,5 +103,5 @@ h2 {
 
 #projects .project6:hover {
   transform: rotate(25deg);
-  background-image: url("https://www.renderhub.com/max/mushroom-house/mushroom-house-01.jpg");
+  background-image: url("../extra/book-review.png");
 }
