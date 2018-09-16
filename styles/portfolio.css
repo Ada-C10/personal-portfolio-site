@@ -1,57 +1,107 @@
-#projects {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "o t"
-    "h f"
-    "i s";
-  grid-gap: 10px;
+body {
+  /* background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */ */
+}
 
-  height: 100%;
-  padding-left: 20em;
-  padding-right: 20em;
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Sonsie One';
+  font-size: 3em;
+  padding: 1em;
+}
+
+.brick {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+  height: 15%;
+  border-top: double black 10px;
+  border-bottom: double black 10px;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  flex-wrap: wrap;
+  margin: 10%;
 }
 
 #projects > section {
   box-shadow: 5px 5px;
+  width: 25em;
+  height: 25em;
+  padding: 3em;
+  border-radius: 50%;
+}
+
+
+.project1, .project2, .project3, .project4, .project5, .project6 {
+   border: solid 1em white;
+   box-sizing: border-box;
+   /** relative so that our ::before absolute block can position itself according to it's parent block **/
+   position: relative;
+   margin: 1em;
 }
 
 .project1 {
-  background-color: blue;
-  grid-area: o;
-  background-image: url("../extra/startrly.png");
-
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
 }
 
 .project2 {
-  background-color: lightgreen;
-  grid-area: t;
-  background-image: url("../extra/hotel.png");
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+  /* background-color: lightgreen; */
+  /* width: calc(25% - 8px); */
 }
 
 .project3 {
-  background-color: gold;
-  grid-area: h;
-  background-image: url("../extra/rideshare.png");
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
 }
 
 .project4 {
-  background-color: green;
-  grid-area: f;
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+
 }
 
 .project5 {
-  background-color: black;
-  grid-area: i;
-  background-image: url("../extra/hummus.png");
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+
 }
 
 .project6 {
-  background-color: aqua;
-  grid-area: s;
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
 }
 
-p {
+h2 {
   color: white;
+  text-align: center;
+  padding-top: 4em;
+}
+
+#projects .project1:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/startrly.png");
+}
+
+#projects .project2:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/hotel.png");
+}
+
+#projects .project3:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/rideshare.png");
+}
+
+#projects .project4:hover {
+  transform: rotate(25deg);
+  background-image: url("https://pre00.deviantart.net/240e/th/pre/i/2014/013/7/0/meow___space_dandy_by_vanhiko-d723xsa.jpg");
+}
+
+#projects .project5:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/hummus.png");
+}
+
+#projects .project6:hover {
+  transform: rotate(25deg);
+  background-image: url("https://www.renderhub.com/max/mushroom-house/mushroom-house-01.jpg");
 }

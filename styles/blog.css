@@ -1,0 +1,74 @@
+body {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");
+  /* background-size: cover; */
+}
+
+#nav-bar {
+    border-bottom: double black 15px;
+}
+
+img {
+  width: 20em;
+  height: 20em;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+  padding: 2em;
+  color: white;
+  font-family: 'Sonsie One'
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+main > section {
+  border: solid black 4px;
+  border-bottom: solid black 20px;
+  padding: 3em;
+  background-color: white;
+}
+
+main section p {
+  padding: 0 5em 0 5em;
+}
+
+main img {
+  margin-top: 5%;
+}
+h2 {
+  margin-left: 5%;
+}
+.blog1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.blog3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.blog5 {
+  display: flex;
+  justify-content: space-between;
+}

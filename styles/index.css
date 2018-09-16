@@ -60,7 +60,8 @@ body {
   grid-row: 2 / 4;
   grid-column: 1 / 6;
   padding: 2em;
-  background-image: url("http://anne-crea.com/annecrea/12145-nature-pictures-for-desktop-background_32291.jpg");
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");
+  /* background-image: url("http://anne-crea.com/annecrea/12145-nature-pictures-for-desktop-background_32291.jpg"); */
   border-bottom: double black 8px;
   border-top: double black 30px;
   text-align: center;
@@ -72,11 +73,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-  color: black;
+  color: white;
 }
 
 #top p:first-of-type {
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 3em;
 }
 
