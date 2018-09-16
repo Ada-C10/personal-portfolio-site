@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+  text-align: center;
+  padding-top: 5%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+   padding: 18px;
+   font-family: "Open Sans";
+   text-transform:uppercase;
+   color: rgba(0, 35, 122, 0.5);
+   font-size: 18px;
+   text-decoration: none;
+   display: inline-block;
+}
+
+nav li {
+   display: inline-block;
+   text-align: center;
+   padding: 10px;
+   border-right: 1px solid #bbb;
+}
