@@ -19,3 +19,4 @@ colors
 #ffbd19 mustard
 #4fecf7 teal
 #33cbd6 darker teal
+#f9d477 lighter mustard
