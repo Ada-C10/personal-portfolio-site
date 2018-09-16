@@ -12,6 +12,10 @@ section{
   line-height: 1.6;
 }
 
+section a{
+  color: rgb(107, 187, 94);
+}
+
 article img{
   width: 100%;
   border: 1px solid gray;
