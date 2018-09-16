@@ -48,23 +48,30 @@ li {
   justify-content: center;
 
 }
-#projectlist li {
+
+
+
+#projectlist li, #mainpage li {
   display: block;
   color: black;
+  text-align: left;
 }
 
 #projectlist li:hover {
   background-color: peachpuff;
 }
 
-#projectlist li a {
+#projectlist li a, #mainpage li a {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-column-gap: 5%;
   padding: 3%;
-  text-align: left;
   text-decoration: none;
   font-family: 'Cabin Sketch', cursive;
+}
+
+#mainpage li a {
+  grid-template-columns: 1fr;
 }
 
 #projectlist li strong {
@@ -73,6 +80,11 @@ li {
 
 #projectlist li p {
   grid-column: 2;
+}
+
+#projects:hover {
+  background-color: peachpuff;
+  background-image: url("images/ScreenShot02.png");
 }
 
 img.sideways {
