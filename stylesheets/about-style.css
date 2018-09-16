@@ -1,0 +1,42 @@
+.portfolio{
+  margin-right: auto;
+}
+
+h1{
+  font-weight: 200;
+  font-size: 3em;
+}
+
+
+
+h2{
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+.contacts{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 14em;
+}
+
+.gmail{
+  width:100px;
+  height:75px;
+}
+
+.spotify{
+  width:100px;
+  height:100px;
+}
+
+.linked{
+  width:100px;
+  height:100px;
+}
+
+.denver {
+  width:45%;
+  height:45%;
+}
