@@ -18,6 +18,7 @@ nav ul li a:hover {
   background-color: #BA01FF;
   color: #FAECFF;
   text-decoration: none;
+  padding: 5px;
 }
 
 nav ul li{

@@ -38,3 +38,16 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.portfolio-links {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #BA01FF;
+  border: thin solid #BA01FF;
+  padding: 5px;
+}
+
+.portfolio-links:hover {
+  background-color: #BA01FF;
+  color: #FAECFF;
+}
