@@ -9,7 +9,7 @@ body {
  .site-content-container {
    display: inline-grid;
    grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 100px 150px 400px 150px 50px;
+   grid-template-rows: 100px;
   }
 
  a:link {
@@ -126,12 +126,21 @@ body {
   box-shadow: inset 400px 0 0 0 #ffbd19;
 }
 
-.blog {
-  grid-row: 1;
-  grid-column: 1;
+.photography h1 {
+  text-align: left;
 }
 
+.photography {
+display: flexbox;
+/* flex-flow: row; */
+justify-content: flex-end;
+flex-direction: column;
+margin: 0;
+padding: 1rem;
+border-color: #33cbd6;
+border-style: solid;
 
+}
 
 footer {
   display: inline-inline-flex;
