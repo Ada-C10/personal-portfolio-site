@@ -18,14 +18,27 @@ body {
 
 }
 
+h2 {
+  color: #0F2BFF;
+}
+
+h1 {
+  color: #FF4D06;
+}
+
 .site-container {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  grid-template-columns: auto 1fr auto;
-  grid-template-areas:
+  grid-template-columns: 1fr;
+  /* grid-template-areas:
     "h h h"
     "m m m"
-    "f f f";
+    "f f f"; */
+
+  grid-template-areas:
+      "h"
+      "m"
+      "f";
   height: 100vh;
   width: 100vw;
 }
@@ -40,7 +53,7 @@ header {
   justify-content: flex-start;
 
   background-color: #ffffff;
-  background-image: #ffffff;
+  border-image-slice: 1;
 }
 
 header * {
@@ -117,18 +130,18 @@ nav ul li {
 
 
 nav a {
-  color: gray;
+  color: #475DFF;
   text-decoration: none;
 }
 
 nav a:visited {
-    color: #2f2f2f;
+    color: #4D514D;
     text-decoration: none;
 
 }
 
 nav a:hover {
-  color: lime;
+  color: #0F2BFF;
   text-decoration: underline;
 
 }
@@ -160,24 +173,36 @@ nav a:hover {
 main {
   grid-area: m;
   box-sizing: content-box;
-  width: 35em;
+  width: auto;
   background-color: white;
-  border: 10em solid black;
-  padding: 5% 20%;
+
+  border-top: 3em #D1D1D1 solid;
+  border-bottom: 3em #D1D1D1 solid;
+  border-right: 20em #D1D1D1 solid;
+  border-left: 20em #D1D1D1 solid;
+  border;
+  padding: 2% 10%;
   /* border-image: linear-gradient(to right, #01ffe9, #00ecff, #00cfff, #50a1ff, #e455ff); */
-  border-imate: radial-gradient(white 15%, transparent 16%), radial-gradient(white 15%, transparent 16%);
+  border-image: linear-gradient(to right top, #969696, #a4a4a4, #b3b3b3, #c2c2c2, #d1d1d1);
   border-image-slice: 1;
+
+  font-size: 1.1rem;
+  line-height: 1.7rem;
 }
 
 main a {
+  color: #FF4D06;
 
 }
 
 main a:visited {
-
+  color: #4D514D;
+  text-decoration: none;
 }
 
 main a:hover {
+  color: #FF4D06;
+  text-decoration: none;
 
 }
 
@@ -186,13 +211,15 @@ footer {
   display: flex;
   /* grid-row: -1;
   grid-column: 1 / -1; */
-  background-color: silver;
+  background-color: #FF4D06;
+  background-image: linear-gradient(to right top, #969696, #a4a4a4, #b3b3b3, #c2c2c2, #d1d1d1);
+  border-image-slice: 1;
 }
 
 footer a {
 
 }
-s
+
 footer a:visited {
 
 }
