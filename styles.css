@@ -18,7 +18,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin-top: 0em;
   margin-bottom: 0em;
 }
@@ -28,8 +28,13 @@
   text-decoration: none;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
+  /* transition: pink; */
+  /* border: 2px solid red; */
+}
 
+.main > section nav li a:hover {
+  font-size: 5em;
+  color: pink;
 }
 
 .one {
@@ -48,5 +53,5 @@
 
 .main > section {
   padding-top: 10em;
-  padding-bottom: 11em; 
+  padding-bottom: 11em;
 }
