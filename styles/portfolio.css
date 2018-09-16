@@ -31,6 +31,10 @@ main h3{
   margin-bottom: 20px;
 }
 
+main article:nth-of-type(1){
+  margin-bottom: 4em;
+}
+
 #projects{
   display: flex;
   flex-direction: column;
