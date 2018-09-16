@@ -1,0 +1,31 @@
+/* Dark Green: #1A535C */
+/*Bright Green: #4ECDC4 */
+/* White-ish: #F7FFF7 */
+/*Orange: #FF6B6B */
+/* Yellow: #FFE66D */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+article {
+  height: atuo;
+  overflow: hidden;
+  padding: 2rem;
+  border-left: 10px solid #FF6B6B;
+  background-color: #FFE660;
+
+  margin: 1rem;
+}
+
+article h2 {
+  font-size: 1.5rem;
+}
+
+article p {
+  font-size: 1.25rem;
+}

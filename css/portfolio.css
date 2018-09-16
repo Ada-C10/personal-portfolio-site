@@ -1,4 +1,10 @@
 
+/* Dark Green: #1A535C */
+/*Bright Green: #4ECDC4 */
+/* White-ish: #F7FFF7 */
+/*Orange: #FF6B6B */
+/* Yellow: #FFE66D */
+
 #projects {
   display: flex;
   flex-direction: row;
