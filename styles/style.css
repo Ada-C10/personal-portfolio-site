@@ -45,6 +45,13 @@ footer{
   min-height: 7vh;
 }
 
+footer h4{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 footer i{
   color: white;
+  margin-left: 5px;
+  margin-right: 5px;
 }
