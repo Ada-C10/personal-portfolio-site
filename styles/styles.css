@@ -1,0 +1,30 @@
+/* body {
+  background-color: #ffbd19;
+} */
+
+body {
+  font-family: 'Space Mono', monospace;
+  text-align: center;
+  color: ffbd19);
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.site-content-container header h1::first-letter {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 75px;
+ }
+
+ .site-content-container {
+   display: inline-grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 10% 30% auto 10%;
+ }
+
+footer {
+  grid-row: 4;
+  grid-column: 1 / span 4;
+  text-align: center;
+  text-transform: full-width;
+}
