@@ -27,8 +27,8 @@ header img {
 
 h1 {
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 5rem;
-  padding: 10rem 2rem;
+  font-size: 3rem;
+  padding: 5rem 2rem;
 }
 
 ul {
@@ -47,6 +47,32 @@ li {
   text-align: center;
   justify-content: center;
 
+}
+#projectlist li {
+  display: block;
+  color: black;
+}
+
+#projectlist li:hover {
+  background-color: peachpuff;
+}
+
+#projectlist li a {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-column-gap: 5%;
+  padding: 3%;
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#projectlist li strong {
+  grid-column: 1;
+}
+
+#projectlist li p {
+  grid-column: 2;
 }
 
 img.sideways {
