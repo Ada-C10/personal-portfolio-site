@@ -2,8 +2,6 @@
   margin-right: auto;
 }
 
-
-
 .main{
   margin-left: auto;
   padding-right: 3em;
@@ -12,4 +10,30 @@
 .about
 {
   padding-left: 5em;
+}
+
+h2{
+  text-align: left;
+  font-size: 2em;
+  color: #56502E;
+  font-family: 'Permanent Marker', cursive;
+}
+
+h3{
+  text-align: left;
+  font-size: 1em;
+}
+
+.maple{
+  width:45%;
+  height:45%;
+}
+
+.parker{
+  width:45%;
+  height:45%;
+}
+
+.hike{
+  display: flex;
 }
