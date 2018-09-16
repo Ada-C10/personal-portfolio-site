@@ -1,0 +1,56 @@
+* {
+    border: solid black 1px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 3fr 1fr;
+  /* justify-content: space-between; */
+
+}
+
+h1.name {
+  font-family: 'Londrina Shadow', cursive;
+  font-size: 5rem;
+}
+
+h1.name:hover {
+  background: linear-gradient(to right, #B0D0D3, #F7AF9D, #6F9283);
+}
+
+.favorites {
+  padding: 0 10%;
+  margin: 0 10%;
+}
+
+p.aboutme {
+  justify-content: flex-end;
+}
+
+section.pseudofooter {
+  display: flex;
+  min-size: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+}
+
+ul {
+  list-style: none;
+}
