@@ -12,9 +12,16 @@
 /* .background-container .photos {
   border-radius: 12%;
   display: block;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* width: 50%; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 
 body {
@@ -27,15 +34,7 @@ body {
   margin: 0 auto;
 }
 
-/* .row {
-  display: flex;
-}
 
-.column img{
-  flex: 33.33%;
-  padding: 5px;
-  width:100%;
-} */
 
 
 
@@ -56,8 +55,8 @@ ul {
 .main-nav a {
   margin: 10px;
   border-radius: 5px;
-  background: #ED6A5E;
-  color: white;
+  background: #F0F8FF;
+  color: #4c4c4c;
 	display: block;
 	padding: 15px;
   font-size: 1rem;
@@ -66,11 +65,11 @@ ul {
 
 }
 .main-nav .kay-nelson {
-  background: #ED6A5E ;
+  background: #F0F8FF ;
   position: absolute;
   top: 8px;
   left: 16px;
-  color: white;
+  color: #4c4c4c;
   font-size: 1rem;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
@@ -85,7 +84,12 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #FF8E72;
+  background-color: #ADD8E6;
   text-align: center;
   color: white;
+}
+
+footer p a {
+  color: grey;
+  text-decoration: none;
 }
