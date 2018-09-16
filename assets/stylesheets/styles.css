@@ -1,0 +1,91 @@
+/* font-family: 'Raleway', Arial, Helvetica, sans-serif; */
+/* colors:
+#FFAF87
+#FF8E72
+#ED6A5E
+
+#377771
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+/* .background-container .photos {
+  border-radius: 12%;
+  display: block;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* width: 50%; */
+
+
+body {
+  background-color: white;
+  margin-bottom:50px;
+}
+
+.background-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* .row {
+  display: flex;
+}
+
+.column img{
+  flex: 33.33%;
+  padding: 5px;
+  width:100%;
+} */
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav {
+  display: -webkit-flex;
+  display: flex;
+}
+.main-nav li:first-child {
+  margin-right: auto;
+}
+
+.main-nav a {
+  margin: 10px;
+  border-radius: 5px;
+  background: #ED6A5E;
+  color: white;
+	display: block;
+	padding: 15px;
+  font-size: 1rem;
+	text-decoration: none;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+
+}
+.main-nav .kay-nelson {
+  background: #ED6A5E ;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+
+footer {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  position: fixed;
+  height: 30px;
+  margin-bottom: 0px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #FF8E72;
+  text-align: center;
+  color: white;
+}
