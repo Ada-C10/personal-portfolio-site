@@ -1,4 +1,55 @@
 article img{
-  width: 40%;
+  width: 100%;
   border: 1px solid gray;
+}
+
+main{
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+}
+
+article{
+  border: 2px solid red;
+}
+
+#projects{
+  display: flex;
+  flex-direction: column;
+}
+
+#projects section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+#project_icon_1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#project_info_1{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+#project_info_2{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+#project_icon_2{
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.general_project_info{
+  padding: 20px;
+}
+section{
+  border: 2px solid orange;
+}
+div{
+  border: 2px solid pink;
 }
