@@ -18,7 +18,9 @@ nav > div {
   width: 140px;
   height: 75px;
   text-align: center;
+  text-transform: capitalize;
   border: 3px groove white;
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   padding: 2px 2px;
 }
