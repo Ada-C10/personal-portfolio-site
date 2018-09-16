@@ -1,0 +1,32 @@
+
+#container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0px 1fr;
+}
+#portfolio {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 5em;
+  margin-bottom: 10em;
+}
+#portfolio ul>li  {
+  text-decoration: none;
+}
+#portfolio ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;  
+}
+  #portfolio li {
+    background: rgba(214, 48, 49,1);
+    height: 180px;
+    width: 180px;
+    margin: 2em;
+  }
+
+  #footer {
+    height: 30vh;
+  }
