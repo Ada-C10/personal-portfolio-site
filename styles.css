@@ -1,0 +1,24 @@
+/* body {
+  margin: 0px;
+} */
+
+.background-container {
+  background-image: url("/Users/ambergriffin/Documents/Ada/week_6/personal-portfolio-site/content/pensive.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  height: 100vh;
+  z-index: -10;
+}
+
+.background-photo {
+  position: absolute;
+  background-color: rbga(0,0,0,0.5);
+  top: 0px;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -5;
+}
