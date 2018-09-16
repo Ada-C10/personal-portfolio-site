@@ -1,0 +1,21 @@
+article {
+  border-right: 1px solid #BA01FF;
+  border-left: 1px solid #BA01FF;
+  margin: 1em;
+  padding: 1em;
+  border-top: thick solid #BA01FF;
+  margin: 2em;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #BA01FF;
+}
+
+/* p {
+  border-bottom: 1px solid #BA01FF;
+} */

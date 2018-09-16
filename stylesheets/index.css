@@ -1,0 +1,16 @@
+#blurb {
+  border-right: 1px solid #BA01FF;
+  border-left: 1px solid #BA01FF;
+  margin: 3em;
+  text-align: center;
+  font-size: 2em;
+  line-height: 2em;
+  padding: 1em;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #BA01FF;
+}
