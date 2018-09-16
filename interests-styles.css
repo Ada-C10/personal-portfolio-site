@@ -1,0 +1,25 @@
+.main  {
+  font-family: 'Lobster', cursive;
+  list-style: none;
+  transition-timing-function: ease-in-out;
+}
+
+.main > section {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: 30em;
+  margin-right: 30em;
+  padding-top: 30em;
+  margin-top: 10em;
+}
+
+.main > section h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 1em;
+  margin-top: -4.5em;
+  font-size: 4em;
+}
