@@ -4,6 +4,12 @@
 /*Orange: #FF6B6B */
 /* Yellow: #FFE66D */
 
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -13,12 +19,11 @@ main {
 }
 
 article {
-  height: atuo;
+  height: auto;
   overflow: hidden;
   padding: 2rem;
   border-left: 10px solid #FF6B6B;
   background-color: #FFE660;
-
   margin: 1rem;
 }
 

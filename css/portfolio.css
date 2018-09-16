@@ -12,13 +12,31 @@
   justify-content: space-around;
   text-align: center;
   align-items: center;
-  background-color: black;
+  border: 10px solid #FF6B6B;
+  margin: 1rem;
+  padding: 1rem;
   flex: 1fr 1fr;
 }
 
 #projects li {
-  width: 50%;
+  width: 40%;
   padding: 3rem;
+  margin: 1rem;
+  border-style: outset;
+}
+
+#projects li:first-child, #projects li:last-child {
+  background-color: #4ECDC4;
+  color: white;
+}
+
+#projects li:nth-child(2), #projects li:nth-child(3){
+  background-color: #1A535C;
+  color: white;
+}
+
+#projects li:hover {
+  border-style: inset;
 }
 
 #projects li a {
@@ -26,19 +44,6 @@
   margin: auto;
 }
 
-#rideshare {
-  /* display: block; */
-  flex
-}
-
-#grocery-store {
-
-}
-
-#hotel {
-
-}
-
-#startrly {
-
+#projects li a:hover {
+  font-size: 2rem;
 }
