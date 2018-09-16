@@ -1,0 +1,26 @@
+/* CSS Animation for header */
+#banner_wave{
+  display: flex;
+  flex-direction: row;
+}
+
+#banner_wave h3:nth-of-type(1){
+  animation-name: color_wave_1;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes color_wave_1 {
+  0% { opacity: 0}
+  10% { opacity: .2}
+  20% { opacity: .4}
+  30% { opacity: .6}
+  40% { opacity: .8}
+  50% { opacity: 1}
+  60% { opacity: .8}
+  70% { opacity: .6}
+  80% { opacity: .4}
+  80% { opacity: .2}
+  100% { opacity: 0}
+}
