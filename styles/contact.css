@@ -85,6 +85,11 @@ a.current:visited {
   line-height: 1.5;
 }
 
+.heading > article > p > a {
+    text-decoration: none;
+    color: #f88379;
+}
+
 footer {
   position: relative;
   bottom:0;
