@@ -27,12 +27,13 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 100%;
+
   background-color: black;
   color: white;
   font-family: serif;
 
 }
+
 
 .journey_content nav a:hover {
   color: red;
@@ -40,7 +41,6 @@ ul {
 
 .projects {
   text-align: left;
-  color: darkblue;
   font-size: 200%;
   color: black;
 }
