@@ -1,0 +1,49 @@
+body{
+  background: black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+  align-items: left;
+  height: 100vh;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #E6E1C5;
+}
+
+h2 {
+  color: #F7AF9D;
+}
+
+.aboutme {
+  grid-column-start: 2;
+  height: 750px;
+  overflow: auto;
+  margin: 5%;
+}
+
+.photos {
+  width: 500px;
+  height: 800px;
+  margin: 10% 2%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}
+
+.photos li {
+  height: 10%;
+  transition: all 0.8s ease;
+  border: outset 10px #6F9283;
+}
+
+.photos:hover li {
+  height: 5%;
+}
+
+.photos li:hover {
+  height: 60%;
+}
+
+img {
+  height: 500px;
+}

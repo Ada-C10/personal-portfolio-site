@@ -1,1 +1,6 @@
 
+background: #e6e1c5; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #e6e1c5 0%, #b0d0d3 47%, #f7af9d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #e6e1c5 0%,#b0d0d3 47%,#f7af9d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #e6e1c5 0%,#b0d0d3 47%,#f7af9d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e1c5', endColorstr='#f7af9d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */

@@ -57,9 +57,26 @@ h3:hover {
   text-shadow: 0 0 2px #ffffff, 0 0 15px #f5f3e7, 0 0 20px #f0eddc, 0 0 40px #f0eddc;
 }
 
+h3 a {
+  text-decoration: none;
+  color: #696D79;
+}
+
+/* h3 a:hover {
+  color: #E6E1C5;
+  text-decoration: none;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #f5f3e7, 0 0 20px #f0eddc, 0 0 40px #f0eddc;
+} */
+
+h3 a:visited {
+  color: #cfc590;
+  text-decoration: line-through;
+}
+
 p.aboutme {
   justify-content: flex-end;
 }
+
 
 section.pseudofooter {
   display: flex;
@@ -71,10 +88,44 @@ section.pseudofooter {
   align-items: space-around;
 }
 
+.misc {
+  padding: 0 5%;
+}
+
+.dog {
+    padding: 0 10%;
+}
+
+.dog img {
+
+  filter: contrast(80%);
+  border: ridge 10px #6F9283;
+}
+
+.dog img:hover {
+  filter: contrast(120%);
+}
+
+.dog p {
+  height: 0%;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.dog p:hover {
+  opacity: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.contactme {
+  padding: 0 10%;
+}
+
 ul {
   list-style: none;
 }
 
 @keyframes buzzzz {
-  
+
 }
