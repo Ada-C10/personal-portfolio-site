@@ -4,8 +4,10 @@ h2 {
 }
 
 p {
-  font-size: 2rem;
-  color: #AEBD38;
+  font-size: 1rem;
+  color: maroon;
+  font-family: sans-serif;
+  font-weight: bold;
 }
 
 img, video {
@@ -27,4 +29,8 @@ section ul {
 
 img:hover, video:hover {
   border-color: #AEBD38 ;
+}
+
+.visuals {
+  max-height: 300px;
 }

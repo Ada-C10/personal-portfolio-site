@@ -28,3 +28,7 @@ section ul {
 img:hover, video:hover {
   border-color: #AEBD38 ;
 }
+
+section:first-of-type {
+  height: 250px;
+}
