@@ -7,8 +7,15 @@
   list-style: none;
 }
 
-.tabs {
+.tab {
+  background-color: white;
+}
+
+.tab > section {
   background-color: pink;
+  width: 15%;
+  height: 80em;
+  list-style: none;
 }
 
 .main > header ul h2 {
@@ -22,7 +29,6 @@
   color: white;
   display: flex;
   justify-content: center;
-  /* border: 2px solid red; */
   margin-top: 0em;
   margin-bottom: 0em;
 
@@ -55,23 +61,16 @@
   font-size: 2em;
 }
 
-/* .main > section h2 {
-  display: flex;
-  justify-content: center;
-  border: 2px solid red;
-} */
-
 .main > header {
   margin-left: -2em;
   padding-top: -1.4em;
   padding-left: 2em;
   height: 8em;
-  /* border: red 2px solid; */
 }
 
 
 .main > section {
-  padding-top: 7em;
+  padding-top: 4em;
   padding-bottom: 8em;
 }
 
@@ -83,7 +82,7 @@
 }
 
 .main > footer {
-  margin-top: -10em;
+  margin-top: -7em;
   width: 5%;
   margin-left: 80em;
 }
