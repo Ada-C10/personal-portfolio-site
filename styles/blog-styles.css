@@ -13,3 +13,21 @@
   padding-left: 7em;
   padding-right: 14em;
 }
+
+#blog-content article>h2 {
+  background-color: rgba(214, 48, 49,1.0);
+  color: white;
+  width: 99.3%;
+  padding-left: .2em;
+  padding-right: -1em;
+}
+#blog-content article>p {
+    margin-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 1em;
+    line-height: 200%;
+}
+#blog-content article:nth-child(even) {
+  background-color: rgba(250, 177, 160,.4);
+  width: 100%
+}

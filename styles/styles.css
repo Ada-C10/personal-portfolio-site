@@ -10,8 +10,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 40px;
-  min-width: 600px;
-  max-width: 1200px;
 }
 
 .background {
@@ -52,7 +50,7 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   padding-bottom:18px;
   padding-left: 8px;
   padding-right: 8px;
-  margin-left: -12px;
+  margin-right: -10px;
   text-shadow: none;
 }
 
@@ -66,14 +64,17 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   position: fixed;
   width: 100%;
   top: 0;
-  padding: 1.2em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  padding-left: 2em;
+  padding-right: 22em;
   margin-top: auto;
   margin-left: -1em;
   margin-right: -1em;
 }
 .nav-container li {
-  padding-left: 1em;
-  padding-right: 4em;
+  padding-left: 2em;
+  padding-right: 3em;
 }
 .nav-container :first-child{
   flex-grow: 1;
@@ -83,26 +84,29 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 #welcome-banner {
   grid-column: 1;
   grid-row: 2;
-  position: relative;
+  position: fixed;
   background: linear-gradient(
   rgba(250, 177, 160,.8), rgba(225, 112, 85,.4));
   height: 250px;
+  width: 100%;
+  margin-top: 18.5em;
   margin-left: calc(-100vw / 2 + 500px / 2);
   margin-right: calc(-100vw / 2 + 500px / 2);
   padding-left: 20em;
   padding-right: 20em;
-  margin-bottom: 9em;
 }
 
 #welcome-banner h1 {
+  position: fixed;
   margin-top: 1em;
-  padding-left: 5em;
+  padding-left: 7em;
   padding-right: 7em;
   text-align: center;
   width: 600px;
   color: rgba(255, 234, 167,1.0);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   line-height: 40px;
+  margin-bottom: 4em;
 }
 #welcome-banner h1>strong {
   color: rgba(214, 48, 49,1.0);
@@ -111,8 +115,9 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 #footer {
   grid-column: 1;
   grid-row: 3;
+  bottom: 0;
   width: 110%;
-  margin-top: -7em;
+  margin-top: -6em;
   margin-left: -1em;
   margin-bottom: -1em;
   background: rgba(255, 118, 117,1.0);
@@ -124,6 +129,7 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
   width: 100%;
   grid-template-columns: 1fr 1fr;
   margin-top: 4em;
+  margin-left: 2em;
 }
 
 .footer-container li:first-child {
@@ -131,4 +137,29 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
 }
 .footer-container li:last-child {
   grid-column:2;
+}
+
+#footer a {
+  color: rgba(214, 48, 49,1.0);
+  font-weight: bold;
+}
+#footer a:hover {
+  color: rgba(255, 234, 167,1.0);
+}
+
+#footer ul {
+  list-style: none;
+}
+#footer .social-media{
+  margin-top: -1.3em;
+  margin-left: 4em;
+  display: flex;
+  flex-direction: row;
+}
+#footer img {
+  height: 75px;
+}
+#footer img:hover {
+  margin-top: -1em;
+  height: 90px;
 }
