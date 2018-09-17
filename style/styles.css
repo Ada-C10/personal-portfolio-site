@@ -9,11 +9,10 @@ body {
 }
 
 header {
-    padding: 5em;
+    padding: 3em;
     grid-column: 1 /span 5;
     color: gold;
     text-align: center;
-
 }
 
 header h1, h2, h3{
@@ -30,10 +29,10 @@ header h1, h2, h3{
   display:inline-block;
 }
 
-.nav-item a::after {
+.nav-item a::after, a::before {
   display: inline-block;
   color: gold;
-  content: '  ';
+  content: ' - ';
 }
 
 .top-quote {
@@ -42,14 +41,13 @@ header h1, h2, h3{
   /* border-bottom: .2em solid;*/
 }
 
-
 .contents-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   background-color: black;
-  /* grid-template-rows: 1fr 1fr 1fr; */
   align-items: center;
   justify-content: center;
+  border: dashed .1em #5a470b;
 }
 
 a {
@@ -80,5 +78,40 @@ a:hover {
 }
 
 .blurb {
-  
+  font-size: 2em;
+  background-color: black;
+  border: dashed .1em #5a470b;
+}
+
+.art-gallery {
+  display: grid;
+  grid-template: 1fr 2fr / 1fr 1fr;
+  background-color: black;
+  /* display:flex;
+  flex-direction: column;
+  text-align: left; */
+}
+
+.art-gallery p {
+  font-size: 1.5rem;
+}
+
+.amy-art {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.amy-art img{
+  width: 50%;
+  height: 50%;
+}
+
+.manal-art {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
 }
