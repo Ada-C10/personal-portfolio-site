@@ -1,22 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
 html, body {
   width: 100%;
   height: 100%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-  background-image: url("/Users/shelan/ada/Ada/week6/personal-portfolio/wireframes/background_retro.jpeg");
+  background-image: url("https://i.imgur.com/LSpa1mM.jpg");
 }
 
 .container {
   display: grid;
-  grid-template-rows: 5fr 5fr 1fr
-}
-.first_greet {
-  display: flex;
-  align-self: center;
+  grid-template-rows: 1fr 2fr 1fr
 }
 
-.second_greet {
+.header {
   display: flex;
-  align-self: center;
+  list-style-type: none;
+  justify-content: flex-end;
+  font-size: 2em;
 }
+
+.greeting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #cbffcb;
+  margin-top: 10rem;
+
+}
+
+.greeting {
+  color: darkslategrey;
+  font-size: 2.5rem;
+  font-family: monospace;
+  letter-spacing: .15em;
+
+  overflow: hidden; /* this will hide the text until the animation starts */
+  white-space: nowrap; /* optional I guess, but this will keep your text on a single line*/
+
+  border-right: 0.3rem dotted deeppink;
+  margin: 0 auto;
+
+  animation:
+    teclear 4s steps(35, end),
+    intercalacion 1s step-end infinite;
+}
+
+/* blinking cursor animation */
+@keyframes intercalacion {
+  from, to { border-color: #1234E8 }
+  10% { border-color: deeppink }
+}
+
+/* typing animation */
+@keyframes teclear {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    list-style-type: none;
+    font-size: 2em;
+  }
