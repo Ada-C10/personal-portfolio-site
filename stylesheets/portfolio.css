@@ -13,6 +13,7 @@ h2 a {
 h2 a:hover {
   color: gray;
 }
+
 .project-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
