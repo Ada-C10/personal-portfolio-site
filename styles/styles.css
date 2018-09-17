@@ -1,5 +1,6 @@
 body {
   color: #fff;
+  background-image: url("images/122706.jpg");
   background-color: #161616;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -7,6 +8,11 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr;
+  /* background: url("images/122706.jpg") no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover; */
 }
 
 
@@ -29,12 +35,14 @@ a:hover {
 }
 
 header {
-  background-color: #953160;
+    background-image: linear-gradient(#812B54, #CD5F93);
+  /* background-color: #953160; */
 
 }
 
 section {
-  background-color: #A23568;
+  background-image: linear-gradient(to bottom right, #CD5F93, #AE386F);
+  /* background-color: #A23568; */
   align-items: center;
 
 }
