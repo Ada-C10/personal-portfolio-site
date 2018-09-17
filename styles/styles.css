@@ -17,15 +17,18 @@ header {
   justify-content: space-between;
 }
 
-.header-photo img{
+/* header .aboutme {
+  padding: 1% 20%;
+} */
+/* .header-photo img{
   height: 200px;
-}
+} */
 
 main {
   display: grid;
   grid-gap: 30px;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 3fr 1fr;
+  grid-template-rows: 1fr 1fr;
   /* justify-content: space-between; */
 
 }
@@ -43,6 +46,40 @@ h1.name {
   color: #B0D0D3;
   text-shadow: 0 0 2px #ffffff, 0 0 15px #70ffff, 0 0 20px #46fdff, 0 0 40px #46fdff;
 } */
+
+.hide {
+  display: none;
+ }
+
+ .selectme ul {
+   /* margin-top: -5%; */
+ }
+
+.selectme li {
+  /* margin-bottom: 1rem; */
+}
+.toggleme {
+  transition: background .3s ease;
+}
+
+.toggleme:hover {
+  color: #f0eddc;
+}
+
+.hideme {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height .6s ease;
+}
+
+.selectme input[type="checkbox"] {
+  opacity: 0;
+}
+
+.selectme input[type="checkbox"]:checked + li > .hideme {
+  max-height: 650px;
+
+}
 
 .books {
 
@@ -111,16 +148,14 @@ section.pseudofooter {
 .dog {
     padding: 0 10%;
 }
-
+/*  */
 .dog img {
-
   filter: contrast(80%);
-  /* border: ridge 10px #6F9283; */
-/* }
+}
 
 .dog img:hover {
   filter: contrast(120%);
-}  */
+}
 
 /* .dog p {
   height: 30%;

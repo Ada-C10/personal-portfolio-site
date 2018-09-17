@@ -11,9 +11,9 @@
 <body>
   <header>
     <h1 class="name">LEANNE RIVERA</h1>
-    <section class ="header-photo">
+    <!-- <section class ="header-photo">
       <img src='../images/portrain.png' alt='header photo'/>
-    </section>
+    </section> -->
     <section class ="aboutme">
       <h3><a href="about.html"> about me</a> </h3>
       <p>
@@ -30,24 +30,38 @@
       <main>
         <section class ="favorites">
         <h3> my favorites </h3>
-        <ul>
-          <li class='books'> books! </li>
-          <ul>
+        <ul class='selectme'>
+        <input id='books' type='checkbox'>
+          <li class='books'>
+            <label for='books' class='toggleme'>
+            books! </label>
+          <ul class='hideme'>
             <li> Dune </li>
             <li> The Lies of Locke Lamora</li>
             <li> Hitchhiker's Guide to the Galaxy </li>
             <li> The Giver </li>
           </ul>
-          <li class='movies'> movies! </li>
-          <ul>
+        </li>
+
+          <input id='movies' type='checkbox'>
+          <li class='movies'>
+            <label for='movies' class='toggleme'>
+              movies!
+            </label>
+          <ul class='hideme'>
             <li> The Lord of the Rings trilogy </li>
             <li> Rush Hour 1 & 2 </li>
             <li> The Matrix </li>
             <li> Back to the Future </li>
             </ul>
+          </li>
 
-            <li class='animation'>animation!</li>
-            <ul>
+          <input id='animation' type='checkbox'>
+            <li class='animation'>
+              <label for='animation' class='toggleme'>
+              animation!
+            </label>
+            <ul class='hideme'>
               <li> Howl's Moving Castle </li>
               <li> The Iron Giant </li>
               <li> The Fox and the Hound </li>
@@ -55,13 +69,19 @@
               <li> The Secret of Kells </li>
               <li> Shrek </li>
               <li> Wreck it! Ralph </li>
-              <li> Pixar! </li>
-              <ul>
+
+              <input id='pixar' type='checkbox'>
+                <li class='pixar'>
+                  <label for='pixar' class='toggleme'>
+                   Pixar! </label>
+              <ul class='hideme'>
                 <li> Up </li>
                 <li> Toy Story 1 & 2 & 3</li>
                 <li> Ratatouille </li>
               </ul>
+            </li>
             </ul>
+            </li>
 
           <!-- </ul>
           <li class='tv'> tv shows! </li>
@@ -71,8 +91,11 @@
               <li> Parks and Rec </li>
               <li> Frasier </li>
             </ul> -->
-            <li class='musicals'> musicals! </li>
-            <ul>
+            <input id='musicals' type='checkbox'>
+              <li class='musicals'>
+                <label for='musicals' class='toggleme'>
+            musicals! </label>
+            <ul class='hideme'>
               <li> The Book of Mormon </li>
               <li> The Greatest Showman</li>
               <li> Fiddler on the Roof </li>
@@ -86,6 +109,7 @@
                   <li> Beauty and the Beast </li>
                 </ul>
             </ul>
+            </li>
           </ul>
         </section>
 
