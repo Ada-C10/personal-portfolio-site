@@ -1,0 +1,154 @@
+/* * {
+  border: 1px solid black;
+} */
+
+
+/*shared styles*/
+
+body {
+  font-family: 'Frank Ruhl Libre', Sans-Serif;
+}
+
+.nav {
+  margin: 10px 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+  align-content: space-between;
+}
+
+.link {
+  padding-left: 2em;
+}
+
+img {
+  width: inherit;
+  height: inherit;
+}
+
+
+h2 {
+  background-color: #fa2f4b;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .2vw;
+  font-family: Raleway, sans-serif;
+}
+
+
+.footer {
+  /* grid-row-start: 4;
+  grid-row-end: 5; */
+  background-color: #0d292c;
+  padding: 1em 2em;
+  display: flex;
+  color: #d3d3d3;
+  font-size: .8em;
+  justify-content: space-between;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #975a5e;
+}
+
+
+
+/*index-specific styles*/
+.page-container {
+display: grid;
+grid-template-rows: 5% 30% 50% 15%;
+background-image: url("../images/halftone.png");
+background-repeat: repeat;
+}
+
+.main-header {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url("../images/header.jpeg");
+  background-color: #975a5e;
+  background-size: cover;
+  background-position: center;
+  height: 25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h1 {
+  text-align: center;
+  color: white;
+  margin: 10em 35vw;
+  padding: .2em;
+  font-size: 1.5em;
+  background-color: #fa2f4b;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .3vw;
+}
+
+
+.projects {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+.projects div {
+  width: 23em;
+  height: 18em;
+}
+
+
+.projects div:nth-of-type(2n+1) {
+  display: flex;
+  background-color: #D8CCC0;
+  font-size: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.overlay {
+  overflow: hidden;
+  position: relative;
+}
+
+
+.overlay-text {
+  font-size: 1em;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 600px;
+  padding: 10px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  background: #000000;
+  opacity: .5;
+}
+
+
+.overlay:hover .overlay-text {
+  top: 100px;
+}

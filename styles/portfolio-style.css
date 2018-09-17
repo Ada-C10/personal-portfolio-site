@@ -1,0 +1,84 @@
+/* * {
+  border: 1px solid black;
+} */
+
+.page-container {
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 5% 10% 90% 5%;
+
+}
+
+
+.nav {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+
+.header {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url("../images/notes2.jpg");
+  background-size: cover;
+  background-position: top;
+  height: 20em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h2 {
+color: white;
+font-size: 3em;
+opacity: .6;
+padding: .2em 6em;
+background-color: transparent;
+}
+
+.main {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 120px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.category {
+  margin: 1em;
+  width: 20em;
+}
+
+.sample {
+  padding: 0 .5em;
+  border: 1px dotted gray;
+  margin: 1em 0;
+}
+
+
+h2 {
+  padding: .2em;
+  text-align: center;
+  font-size: 1em;
+
+}
+
+
+p {
+  font-size: 18px;
+}
+
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
