@@ -71,12 +71,14 @@
   margin-bottom: 10em;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
+
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
+  width: 80%;
   z-index: -1;
   position: relative;
   max-width: 6000px;
@@ -123,7 +125,7 @@
 
 /* Place the container to the left */
 .left {
-  left: 0;
+  right: 8%;
 }
 
 /* Place the container to the right */
@@ -162,6 +164,9 @@
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
+}
+.left::after {
+  right: -12px;
 }
 
 /* The actual content */
