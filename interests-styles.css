@@ -4,6 +4,13 @@
   transition-timing-function: ease-in-out;
 }
 
+.main > header ul h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: pink;
+}
+
 .main > section {
   background-color: pink;
   display: flex;
@@ -12,7 +19,8 @@
   margin-left: 30em;
   margin-right: 30em;
   padding-top: 30em;
-  margin-top: 10em;
+  margin-top: 8em;
+  transform: scale(0.5);
 }
 
 .main > section h1 {
@@ -22,4 +30,63 @@
   height: 1em;
   margin-top: -4.5em;
   font-size: 4em;
+}
+
+.main > div {
+  height: 1em;
+}
+
+.pictures {
+  transform: scale(0.3);
+  height: 10em;
+  margin-top: -38em;
+  margin-right: -80em;
+  margin-left: -80em;
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  grid-template-rows: 50% 50% 50% 50% 50% 50% 50% 50%;
+  list-style: none;
+}
+
+.pictures li:nth-child(4) {
+  transform: scale(0.9);
+}
+
+.pictures li:first-child {
+  transform: scale(0.9);
+}
+
+.pictures > li img {
+  border-radius: 50%;
+  width: 70em;
+}
+
+.pic1 {
+  grid-row-start: 1;
+  grid-column-start: 3;
+}
+
+.pic2 {
+  grid-row-start: 25;
+  grid-column-start: 1;
+}
+
+.pic3 {
+  grid-row-start: 28;
+  grid-column-start: 3;
+}
+
+.pic4 {
+  grid-row-start: 1;
+  grid-column-start: 13;
+}
+
+.pic5 {
+  grid-row-start: 25;
+  grid-column-start: 15;
+}
+
+.pic6 {
+  grid-row-start: 28;
+  grid-column-start: 13;
 }
