@@ -3,6 +3,8 @@ body {
     /*background-color: #edf2f4;*/
     background-color: #2b2d42;
     color: #edf2f4;
+    padding: 0;
+    margin: 0;
     /*font-family: 'Nunito', sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -10,23 +12,26 @@ body {
     display: grid;
     grid-template-rows: 4em 200px 640px 200px auto;
     grid-template-columns: 2fr 2fr;
-
 }
 
 ul{
     list-style: none;
 }
-
+a {
+    color: #05668d;
+}
+a:hover{
+    color: #f77f00;
+}
 .container header{
     grid-column: 1 / -1;
     grid-row: 1;
     display: flex;
     /*align-self: center;*/
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #edf2f4;
     color: #d90429;
-    margin: 0 0;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -64,27 +69,21 @@ ul{
     border-radius: 50%;
 }
 
-@keyframes fade {
-    0% {
-        opacity: 1;
-    }
-    25% {
-        opacity: 1;
-    }
-    75% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.orbit > img{
+.orbit a > img{
     height: 120px;
     width: 120px;
     padding: 5px;
     border: 2px solid black;
     border-radius: 50%;
+}
+
+.orbit img:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 30px 0px #edf2f4;
+    -moz-box-shadow:    0px 0px 30px 0px #edf2f4;
+    box-shadow:         0px 0px 30px 0px #edf2f4;
 }
 
 #portfolio{
@@ -118,17 +117,21 @@ ul{
     justify-self: center;
 }
 
-nav h2{
+nav {
+    grid-column: 1 / 2;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*justify-content: flex-end;*/
     align-self: center;
 }
 
 footer ul{
-    grid-column: 1 / span 2;
+    grid-column: 2 / 3;
     grid-row: 5;
     display: flex;
     justify-content: space-evenly;
+    align-self: center;
 }
 
 .this{

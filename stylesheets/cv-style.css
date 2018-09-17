@@ -8,10 +8,12 @@ body {
     /*font-family: 'Nunito', sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
 }
+
 .container {
     display: grid;
     grid-template-rows: 4em 200px 640px 200px auto;
     grid-template-columns: 2fr 2fr;
+}
 }
 
 ul{
@@ -24,10 +26,6 @@ a:hover{
     color: #f77f00;
 }
 
-svg{
-    height: 100px;
-    width: 100px;
-}
 
 
 
