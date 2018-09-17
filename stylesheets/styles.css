@@ -88,7 +88,18 @@ article {
   grid-template-columns: 1fr 4fr 1fr;
 }
 
-article ul li, article ul lh, article ol lh {
+div.description {
+  border: 1px solid;
+}
+
+article h3 {
+  font-size: x-large;
+  grid-column: 2;
+  margin-block-end: 0%;
+  border: 1px solid;
+}
+
+article ul li, article h3 {
   text-align: center;
   line-height: 1rem;
   display: block;
@@ -96,7 +107,8 @@ article ul li, article ul lh, article ol lh {
 
 article section {
   grid-column: 2;
-  border-bottom: 1px solid;
+  border: 1px solid;
+  grid-row-gap: 0%;
 }
 
 article ul, article ol {
@@ -116,6 +128,7 @@ article * {
   font-size: large;
   text-align: left;
   background-color: white;
+  font-weight: normal;
 }
 
 article img {
@@ -124,20 +137,6 @@ article img {
     border-radius: 5%;
     object-fit: cover;
     margin: 2rem 2rem;
-}
-
-.posttitle {
-  display: grid;
-  grid-template-columns: 4fr 1fr;
-}
-
-.posttitle p {
-  align-self: end;
-}
-
-.posttitle h3 {
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 3rem;
 }
 
 img.sideways {
