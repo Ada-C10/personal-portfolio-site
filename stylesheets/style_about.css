@@ -75,3 +75,21 @@ footer ul li{
 footer ul li img{
     height: 30px;
 }
+
+/*----------------------------------------*/
+html {
+  font-family: 'Quicksand', sans-serif;
+}
+main {
+  display: grid;
+  grid: 1fr/ 1fr 1fr;
+  border: black;
+}
+
+section:first-child {
+  background-color: #E3CDA1;
+  font-size: 300%;
+  text-align: center;
+
+  align-content: center;
+}
