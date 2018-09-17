@@ -1,12 +1,51 @@
 body, html {
     height: 100%;
-
+    margin:0;
+      padding:0;
 }
 
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
 h3 {
   font-family: 'Rock Salt', cursive;
 }
+body {
+  display: grid;
+  grid-gap: 10px;
+  height: 100%;
+  grid-template-columns:1fr;
+  grid-template-areas:
+             "nav"
+            "main"
+            "footer"
 
+  grid-template-rows: 100px 1fr 80px;
+}
+nav{
+  grid-area: nav;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+
+.main {
+   grid-area: main;
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+footer.column-layout {
+  grid-area: footer;
+  clear: both;
+  color: white;
+
+  }
 
 html {
 background: url("../images/crystal.png") no-repeat 50% 50% fixed;
@@ -96,11 +135,6 @@ h1 {
         width: 100%;
     }
 }
-footer {
-    grid-row-start: 2;
-    grid-row-end: 3;
-  }
-
 .fa {
     padding: 20px;
     font-size: 30px;
