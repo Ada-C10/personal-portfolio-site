@@ -66,6 +66,10 @@ a.current:visited {
   color: #f88379;
 }
 
+.heading {
+  padding-bottom: 50px;
+}
+
 .heading > h4 {
   font-family: 'Francois One', sans-serif;
   font-size: 1.5em;
@@ -78,11 +82,12 @@ a.current:visited {
 
 .heading > article {
   font-family: 'Hind Siliguri', sans-serif;
-  font-size: 1em;
+  font-size: 1.25em;
   color: #A8A8A8;
   margin-right: 18%;
   margin-left: 18%;
   line-height: 1.5;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
 .heading > article > p > a {
