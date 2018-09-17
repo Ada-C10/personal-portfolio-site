@@ -1,19 +1,13 @@
-/* * {
-  border: 1px solid black;
-} */
 
 .page-container {
 grid-template-columns: 1fr 1fr 1fr;
 grid-template-rows: 5% 10% 90% 5%;
-
 }
-
 
 .nav {
   grid-column-start: 1;
   grid-column-end: 4;
 }
-
 
 .header {
   text-align: center;
@@ -62,19 +56,16 @@ background-color: transparent;
   margin: 1em 0;
 }
 
-
 h2 {
   padding: .2em;
   text-align: center;
   font-size: 1em;
-
 }
 
 
 p {
   font-size: 18px;
 }
-
 
 .footer {
   grid-column-start: 1;
