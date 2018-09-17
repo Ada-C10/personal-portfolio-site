@@ -1,16 +1,49 @@
 body {
-  font-family: 'Noto Serif JP', sans-serif;
-  text-align: left;
-  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 60px;
   padding: 0;
+  vertical-align: middle;
+  background-color: #90A4AE;
+  color: #607D8B;
 }
 
 font-family: 'Noto Serif JP', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Montserrat', sans-serif;
+font-family: 'Bungee Outline', cursive;
+font-family: 'Bungee Hairline', cursive;
 
-h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 75px;
-  color: #f9d477;
+.line-1 {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 20pt;
  }
+
+.line-1 {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 70pt;
+  padding-left: 10rem;
+  text-align: left;
+  padding-top: 17rem
+}
+
+.line-2 {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 70pt;
+  padding-left: 10rem;
+  text-align: left;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+
+h5 {
+  font-family: 'Noto Serif JP', sans-serif;
+  font-size: 20pt
+}
