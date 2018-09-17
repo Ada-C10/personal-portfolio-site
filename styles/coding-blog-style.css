@@ -1,7 +1,15 @@
 
-.side-bar a:hover {
+.texture a:hover {
   padding-right: 35%;
   box-shadow: inset -20px -3px black;
   background-color: #BBFFFF;
   color: magenta;
+}
+
+.content {
+  color: black;
+  justify-self: center;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1em;
 }
