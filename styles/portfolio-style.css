@@ -1,1 +1,67 @@
 
+.container{
+  display: grid;
+  grid-template-rows: 1fr 5fr 0.05fr;
+  grid-template-columns:1fr 5fr 0.5fr;
+  grid-template-areas:
+  "header header header"
+  "nav main aside"
+  "footer footer footer";
+  grid-gap: .75em;
+
+}
+
+header{
+  grid-area: header;
+  background-color: teal;
+}
+nav{
+  grid-area: nav;
+  background-color: tomato;
+
+}
+.side-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+
+}
+main{
+  grid-area: main;
+  background-color: lightblue;
+}
+aside{
+  grid-area: aside;
+  background-color: orange;
+}
+footer{
+  margin:0;
+  grid-area: footer;
+  background-color: lightgreen;
+}
+
+.project-section {
+  display: grid;
+
+}
+.projects{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+
+  flex-wrap: wrap;
+
+}
+.projects div {
+  max-width: 45%;
+  border: 0.125em solid black;
+}
+
+.projects p{
+  color: navy;
+  /* overflow-wrap: break-word; */
+}
