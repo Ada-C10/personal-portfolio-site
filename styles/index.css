@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.site_content {
+  height: 490px;
+  width: auto;
+  margin: 2%;
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 1fr 1fr 8fr 1fr;
+  grid-template-areas:
+    "m h h h h"
+    "m d d d d"
+    "m c c c c"
+    "m f f f f"
+
+}
+
+.site_content nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: black;
+  color: white;
+  font-family: serif;
+  grid-area: m;
+  align-self: flex-start;
+}
+
+.site_content nav a:hover {
+  color: red;
+}
+
+.text_block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: darkblue;
+  grid-area: d;
+  align-self: flex-start;
+}
+
+.text_block h1 {
+  font-family: 'Open Scan';
+}
+
+.text_block p{
+  font-size: 150%;
+}
+
+.site_content img {
+  height: 100%;
+  width: 100%;
+  grid-area: c;
+}

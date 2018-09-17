@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.projects_content {
+  height: 490px;
+  width: 400px;
+  margin: 2%;
+  display: grid;
+  grid-gap: 1%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: 1fr 1fr 1fr 4fr 1fr;
+  grid-template-areas:
+    "h h h"
+    "m m m"
+    "c c c"
+    "d d d"
+    "f f f"
+}
+
+.projects_content nav {
+  grid-area: m;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 20%;
+  background-color: black;
+  color: white;
+  font-family: serif;
+
+}
+
+.projects_content nav a:hover {
+  color: red;
+}
+
+.projects {
+  text-align: center;
+  color: darkblue;
+}
+
+.projects h1 {
+  grid-area: c;
+}
+
+.projects ul {
+  display: flex;
+  flex-direction: row;
+  grid-area: d;
+}
+
+.proj {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  height: 500px;
+  width: 450px;
+}
+
+.proj h2 {
+  font-family: 'Open Scan';
+}
+
+.proj p{
+  font-size: 100%;
+}
+
+.proj img {
+  border-radius: 20%;
+  height: 200px;
+  width: 200px;
+}
