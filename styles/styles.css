@@ -1,6 +1,7 @@
+
 body {
   color: #fff;
-  background-image: url("images/122706.jpg");
+  /* background-image: url("images/122706.jpg"); */
   background-color: #161616;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -8,13 +9,23 @@ body {
   margin: 0;
   display: grid;
   grid-template-columns: 1fr;
-  /* background: url("images/122706.jpg") no-repeat 50% 50% fixed;
-  background-size: cover;
+  background: url(https://i.imgur.com/qEEc29m.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  -webkit-background-size: cover; */
-}
+  background-size: cover;
+  }
 
+.content {
+  text-align: center;
+  color: #fff;
+  margin: 40px auto;
+  background: rgba(22,22,22, 0.5);
+  width: 100%;
+  max-width: 960px;
+  border-radius: 5px;
+  padding-bottom: 32px;
+}
 
 nav {
   background-color: #76284D;
@@ -36,13 +47,13 @@ a:hover {
 
 header {
     background-image: linear-gradient(#812B54, #CD5F93);
-  /* background-color: #953160; */
+  background-color: #953160;
 
 }
 
 section {
   background-image: linear-gradient(to bottom right, #CD5F93, #AE386F);
-  /* background-color: #A23568; */
+  background-color: #A23568;
   align-items: center;
 
 }
@@ -132,7 +143,7 @@ div.message {
 }
 
 img.index {
-   padding:1px;
+   padding: 1px;
    border:1px solid #021a40;
 }
 
