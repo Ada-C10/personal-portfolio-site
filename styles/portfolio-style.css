@@ -71,3 +71,7 @@ footer{
   color: navy;
   grid-row: 1 / span 1;
 }
+
+.side-nav ul {
+  display: grid;
+}

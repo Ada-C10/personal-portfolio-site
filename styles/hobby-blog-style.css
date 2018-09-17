@@ -8,16 +8,27 @@ nav {
 }
 
 header {
-  margin-top:3em;
+  margin-top: 3em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.header {
+  display: grid;
+}
+.header img {
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 3;
+  justify-self: center;
+  padding: 1em;
+}
+.header h3 {
+  grid-row: 2 / span 1;
+}
+
 .texture a {
   color: #8B0000;
-}
-header {
 }
 
 main {
@@ -85,8 +96,6 @@ h2 {
 
 .laptop li:last-child{
 padding-top: 4em;
-padding-bottom: 4em;
-  border-bottom: white solid;
 }
 
 .books {
