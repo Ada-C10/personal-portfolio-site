@@ -1,7 +1,3 @@
-/* * {
-  border: solid 1px red;
-} */
-
 .container {
   display: flex;
   flex-direction: column;
@@ -23,16 +19,17 @@ article ul {
   display: flex;
   flex-direction: flex-end;
   justify-content: space-around;
-
-
 }
+
 p {
   line-height: 150%;
 }
+
 .poem p{
   line-height: 200%;
   text-align: center;
 }
+
 .date {
   align-self: flex-start;
 }
