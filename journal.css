@@ -27,6 +27,15 @@ nav > div {
   padding: 2px 2px;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a:visited {
+  color: red;
+}
+
 .gridbox {
   border: 1px solid black;
   display: grid;
