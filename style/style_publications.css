@@ -22,8 +22,13 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   font-family: Special Elite;
   padding-bottom: 0;
+  padding-top: 4rem;
   border-bottom: 3px double gray;
+  background-image: url("../images/background.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
 }
+
 
 .banner h2 {
   grid-column-start: 2;
@@ -32,22 +37,12 @@ body {
 }
 .pub {
   padding: 10px;
-  background-color:papayawhip;
-
 }
-
-.pub1 {
-  padding: 10px;
-}
-
-
-
-
 
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 ul {
@@ -55,18 +50,22 @@ ul {
   padding-left: 0;
 }
 
-#about {
+#home {
   grid-column-start: 1;
   text-align: center;
 }
-
-#portfolio {
+#about {
   grid-column-start: 2;
   text-align: center;
 }
 
-#hobbies {
+#portfolio {
   grid-column-start: 3;
+  text-align: center;
+}
+
+#hobbies {
+  grid-column-start: 4;
   text-align: center;
 }
 
