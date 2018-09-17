@@ -1,0 +1,106 @@
+body {
+  margin: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  margin: 0;
+  padding: 10px;
+  background-color: gray;
+  z-index: -10;
+}
+
+nav {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: -5;
+}
+
+nav > div {
+  margin: 0px;
+  width: 140px;
+  height: 75px;
+  text-align: center;
+  text-transform: capitalize;
+  border: 3px groove white;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 2px 2px;
+}
+
+nav p:active {
+  color: gray;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav p:hover {
+  color: red;
+}
+
+.projects {
+  height: 800px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.projects p {
+  height: 355px;
+  margin: auto;
+  line-height: 350px;
+  border: 1px solid black;
+  text-align: center;
+  color: white;
+}
+
+.project1 {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.project2 {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.project3 {
+  width: 400px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.project4 {
+  margin-top: 30px;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.project5 {
+  margin-top: 30px;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+.project6 {
+  margin-top: 30px;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+footer {
+  text-align: center;
+}
