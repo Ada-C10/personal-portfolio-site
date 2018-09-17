@@ -54,7 +54,8 @@ footer{
 }
 .projects div {
   display: grid;
-  max-width: 45%;
+  max-width: 25%;
+  /* height: inherit somehow from width, square */
   border: 0.125em solid black;
   background-color: white;
 }
@@ -64,6 +65,11 @@ footer{
   border: 0.125em solid black;
   grid-row: 2 / span 1;
   background-color: lightgray;
+}
+
+.projects img{
+max-width: 100%;
+/* size: cover; */
 }
 
 .projects p{

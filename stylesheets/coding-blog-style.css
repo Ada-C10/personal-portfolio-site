@@ -13,3 +13,7 @@
   padding-right: 4em;
   padding-bottom: 1em;
 }
+
+.blog-posts {
+  display: flex;
+}
