@@ -9,14 +9,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/joel-peel-131757-unsplash.jpg");
+    background-image: url('../images/federico-bottos-744760-unsplash.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
 }
 
 .hero h1 {
     /* Text styles */
     font-size: 4em;
+    color: white;
+}
+
+h3 {
+  color: white;
 }
