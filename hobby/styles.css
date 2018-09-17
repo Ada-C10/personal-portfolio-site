@@ -1,0 +1,11 @@
+
+body { background-image: url("back.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+width: 95%;
+margin: 0;
+
+padding: 35px;
+font-size: 25;}
