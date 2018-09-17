@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 body {
-
-    background-color: #edf2f4;
-    /*background-color: #2b2d42;*/
-    color: #ef233c4;
+    /*background-color: #edf2f4;*/
+    background-color: #2b2d42;
+    color: #edf2f4;
     /*font-family: 'Nunito', sans-serif;*/
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -33,21 +32,59 @@ ul{
     z-index: 1;
 
 }
-.center-piece {
+
+#center-piece {
     grid-column: 1 / -1;
     grid-row: 3;
     align-self: center;
     justify-self: center;
+    /*padding: 1px;*/
+    padding: 0;
+    margin: 0;
+    border: 10px solid black;
+    border-radius: 50%;
+    position: relative;
+    background: url("../images/elle-johnnie.svg");
+    display: inline-block;
+    ;
 }
-    /*display: block;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*width: 50%;*/
-/*}*/
+
+#center-piece img {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#center-piece img.top:hover {
+    opacity: 0;
+}
+
+#center-piece img.bottom {
+    border-radius: 50%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 
 .orbit > img{
     height: 120px;
     width: 120px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
 }
 
 #portfolio{
@@ -92,4 +129,25 @@ footer ul{
     grid-row: 5;
     display: flex;
     justify-content: space-evenly;
+}
+
+.this{
+    color: #2b2d42;
+    color: #8d99ae;
+    color: #edf2f4;
+    color: #ef233c;
+    color: #d90429;
+
+    color: #003049;
+    color: #d62828;
+    color: #f77f00;
+    color: #fcbf49;
+    color: #eae2b7;
+
+    color: #05668d;
+    color: #028090;
+    color: #00a896;
+    color: #02c39a;
+    color: #f0f3bd;
+
 }
