@@ -67,8 +67,17 @@ html, body {
 
 .intro p {
   text-align: right;
-  margin-top: 10%;
+  margin-top: 6%;
   color: #F3ECE1;
   font-size: 1.2em;
   font-family: 'Quattrocento Sans', sans-serif;
+}
+
+footer {
+  font-family: 'Maitree', serif;
+  margin-left: 4em;
+  margin-top: 10em;
+  color: #364A66;
+  font-size: .8em;
+  letter-spacing: 1px;
 }
