@@ -1,0 +1,14 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  border-top: 2px solid black;
+  border-bottom: 8px solid black;
+  display: flex;
+  align-items: center;
+  background-image: url("/Users/shelan/ada/week6/personal-portfolio-site/pics/background_retro.jpg");
+}
