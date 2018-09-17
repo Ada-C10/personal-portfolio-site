@@ -1,16 +1,14 @@
 body {
-  background-color: black;
-  /* display: grid; */
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; */
   background: url(http://hdblackwallpaper.com/wallpaper/2015/07/black-and-gold-wallpaper-iphone-22-background.jpg);
   color: gold;
-  /* column-gap: 10px;*/
 }
 
 header {
     padding: 3em;
-    grid-column: 1 /span 5;
+    /* grid-row: 1 /span 1; */
     color: gold;
     text-align: center;
 }
@@ -21,7 +19,7 @@ header h1, h2, h3{
 }
 
 .nav-content{
-  grid-column: 1;
+  /* grid-column: 1; */
   list-style-type: none;
 }
 
@@ -42,11 +40,11 @@ header h1, h2, h3{
 }
 
 .contents-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: black;
-  align-items: center;
-  justify-content: center;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   border: dashed .1em #5a470b;
 }
 
@@ -79,14 +77,12 @@ a:hover {
 
 .blurb {
   font-size: 2em;
-  background-color: black;
   border: dashed .1em #5a470b;
 }
 
 .art-gallery {
   display: grid;
   grid-template: 1fr 2fr / 1fr 1fr;
-  background-color: black;
   /* display:flex;
   flex-direction: column;
   text-align: left; */
@@ -103,7 +99,7 @@ a:hover {
   justify-content: space-between;
 }
 
-.amy-art img{
+.amy-art img {
   width: 50%;
   height: 50%;
 }
@@ -114,4 +110,25 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   margin: 1rem;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio-list li{
+  border: .2rem dotted gold;
+  padding: 10px;
+}
+
+.portfolio-list img {
+  width: 150px;
+  length: 150px;
+}
+
+body, .contents-list, .blurb, .art-gallery, .portfolio-list li {
+  background-color: black;
 }
