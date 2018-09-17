@@ -1,8 +1,13 @@
-
+@media only screen and (min-width: 600px) {
+  article {
+    background: #ffcc99;
+    color: #4c4c4c;
+  }
+}
 
 .box {
   display:block;
-  background-color: #ffcc99;
+  background-color: white;
   color: grey;
   border-radius: 5px;
   padding: 20px;
@@ -14,6 +19,7 @@
 .box:nth-child(odd) {
   background-color: #ffcc66;
   color: grey;
+
 }
 
 
@@ -24,4 +30,7 @@
   grid-template-columns: fit-content(40%);
   grid-template-rows: 150px 150px 150px;
   grid-auto-flow: column;
+  padding-left: 17%;
+  padding-bottom: 15%;
+  padding-top: 0%;
 }

@@ -15,6 +15,14 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%; */
+@media only screen and (min-width: 600px) {
+  article {
+    background: #ffcc99;
+    color: #4c4c4c;
+  }
+}
+
+
 
 html {
   box-sizing: border-box;
@@ -25,7 +33,7 @@ html {
 
 
 body {
-  background-color: white;
+  background-color: silver;
   margin-bottom:50px;
 }
 
@@ -33,7 +41,6 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
-
 
 
 
@@ -55,41 +62,74 @@ ul {
 .main-nav a {
   margin: 10px;
   border-radius: 5px;
-  background: #F0F8FF;
+  background: #ffcc99;
   color: #4c4c4c;
 	display: block;
 	padding: 15px;
   font-size: 1rem;
 	text-decoration: none;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
-
 }
+
 .main-nav .kay-nelson {
-  background: #F0F8FF ;
+  background: #ffcc99 ;
   position: absolute;
   top: 8px;
   left: 16px;
   color: #4c4c4c;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 
-footer {
+.horizonal-pics-container ul{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  background-color: silver;
+  justify-content: center;
+  height: 500px;
+  width: auto;
+  padding-top: 10%;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.horizonal-pics-container .icon{
+    transform: rotate(90deg);
+    width: 200px;
+    height: 200px;
+    border-radius: 25%
+
+}
+
+.horizonal-pics-container img{
+    width: 200px; /* you can use % */
+    height: 200px;
+    border-radius: 25%
+}
+
+.footer_links {
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   position: fixed;
-  height: 30px;
+  height: 90px;
   margin-bottom: 0px;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #ADD8E6;
+  background-color: #ffcc99;
   text-align: center;
-  color: white;
 }
 
-footer p a {
-  color: grey;
-  text-decoration: none;
+.footer_links a {
+  background: #ffcc99;
+  color: #4c4c4c;
+	display: block;
+  font-size: 1.2rem;
+	text-decoration: none;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-left: 3px;
 }
