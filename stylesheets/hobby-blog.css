@@ -6,8 +6,17 @@ nav  li {
   color: black;
 }
 
+a:visited {
+    color: black;
+}
+
+
 img {
 	width: 30%;
 	float: left;
 	margin: 1.66%;
+}
+
+h1, p {
+  text-align: center;
 }

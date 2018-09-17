@@ -2,3 +2,18 @@ nav  li {
   border-right: 1px solid black;
   color: black;
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+a:visited {
+    color: black;
+}
+
+.about-image {
+  height: 100%;
+}
