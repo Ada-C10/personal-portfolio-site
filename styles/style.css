@@ -49,6 +49,16 @@ header ul li a {
   font-size: 1em;
 }
 
+.welcome p:first-of-type {
+  margin-left: 20%;
+  margin-top: -12%;
+}
+
+.welcome p:last-of-type {
+  margin-left: 10%;
+  margin-top: -12%;
+}
+
 .menu_wheel {
   grid-row: 3/4;
   grid-column: 2/4;
@@ -85,7 +95,6 @@ footer {
   color: rgb(233, 223, 180);
   display: grid;
   grid-template-columns: 5fr 1fr;
-  /* max-height: 100p; */
 }
 
 footer img {
