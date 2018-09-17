@@ -1,16 +1,30 @@
 main {
 
 }
-.projects {
-  display: grid;
-  background-color: pink;
-  grid-template: 1fr 1fr 1fr/ 1fr 1fr
+
+nav  li {
+  border-right: 1px solid black;
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+    color: black;
+}
 
 }
 
-.section-hearder {
-  background-color: yellow;
-  grid-area: hearder;
+.projects {
+  display: grid;
+
+  grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+}
+
+.section-header {
+  grid-area: header;
   grid-row: 1;
   grid-column: 1 / 4;
   text-align: center;
