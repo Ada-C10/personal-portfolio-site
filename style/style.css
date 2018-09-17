@@ -24,7 +24,7 @@ font-family: 'Bungee Hairline', cursive;
   font-size: 70pt;
   padding-left: 10rem;
   text-align: left;
-  padding-top: 17rem
+  padding-top: 12rem
 }
 
 .line-2 {
@@ -41,7 +41,6 @@ a:link {
 a:visited {
     color: white;
 }
-
 
 h5 {
   font-family: 'Noto Serif JP', sans-serif;
