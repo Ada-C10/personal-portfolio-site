@@ -6,6 +6,13 @@ body {
   background-color: #f1e6f7;
   color: #042389;
   font-family: Arial;
+  margin-left: 20%;
+  margin-right: 20%
+}
+
+nav {
+  background-color: white;
+  border: double pink 5px;
 }
 
 nav ul {

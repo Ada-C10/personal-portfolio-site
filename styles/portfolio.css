@@ -2,6 +2,8 @@
 main ul > * {
   display: flex;
   flex-direction: column;
+
+
 }
 
 main ul li > * {
@@ -9,15 +11,19 @@ main ul li > * {
 }
 
 button {
-  border: solid 1px pink;
+  border: double 5px pink;
   border-radius: 20px;
   background-color: #4286f4;
   color: black;
   padding: .5%;
 }
 
-button:hover {
-
+button {
+  font-size: 70%;
+  padding: 0.5%;
   color: white;
+}
 
+button:hover {
+  font-size: 1.1rem;
 }
