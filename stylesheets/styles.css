@@ -1,8 +1,12 @@
-nav a:hover {
+* {
+  background-color: lightgray;
+}
+
+[href]:hover {
   background-color: peachpuff;
 }
 
-nav a {
+nav a, footer p {
   text-decoration: none;
   font-family: "Gloria Hallelujah", cursive;
   font-size: 1rem;
@@ -46,19 +50,16 @@ li {
   align-items: center;
   text-align: center;
   justify-content: center;
-
 }
-
-
+#projectlist li [href]:hover {
+  border: 2px solid;
+  background-color: lightgray;
+}
 
 #projectlist li, #mainpage li {
   display: block;
   color: black;
   text-align: left;
-}
-
-#projectlist li:hover {
-  background-color: peachpuff;
 }
 
 #projectlist li a, #mainpage li a {
@@ -82,9 +83,61 @@ li {
   grid-column: 2;
 }
 
-#mainpage li:hover {
-  background-color: peachpuff;
-  background-image: url("images/ScreenShot02.png");
+article {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+article ul li, article ul lh, article ol lh {
+  text-align: center;
+  line-height: 1rem;
+  display: block;
+}
+
+article section {
+  grid-column: 2;
+  border-bottom: 1px solid;
+}
+
+article ul, article ol {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+article ol li {
+  border: 1px dotted;
+  margin: 1%;
+  grid-column-gap: 0%;
+}
+
+article * {
+  font-family: sans-serif;
+  padding: 3%;
+  font-size: large;
+  text-align: left;
+  background-color: white;
+}
+
+article img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5%;
+    object-fit: cover;
+    margin: 2rem 2rem;
+}
+
+.posttitle {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.posttitle p {
+  align-self: end;
+}
+
+.posttitle h3 {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 3rem;
 }
 
 img.sideways {
