@@ -2,6 +2,7 @@
   font-family: 'Lobster', cursive;
   list-style: none;
   transition-timing-function: ease-in-out;
+  background-color: pink;
 }
 
 .main > header ul h2 {
@@ -21,6 +22,7 @@
   padding-top: 30em;
   margin-top: 8em;
   transform: scale(0.5);
+  border: 5px white solid;
 }
 
 .main > section h1 {
