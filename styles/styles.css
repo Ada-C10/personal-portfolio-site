@@ -17,6 +17,10 @@ header {
   justify-content: space-between;
 }
 
+.header-photo img{
+  height: 200px;
+}
+
 main {
   display: grid;
   grid-gap: 30px;
@@ -30,7 +34,9 @@ h1.name {
   font-family: 'Londrina Shadow', cursive;
   font-size: 5rem;
   color: #B0D0D3;
+  padding: 0 2%;
   text-shadow: 0 0 2px #ffffff, 0 0 15px #70ffff, 0 0 20px #46fdff, 0 0 40px #46fdff;
+  animation: buzzzz 1s infinite linear;
 }
 
 /* h1.name:hover {
@@ -47,6 +53,11 @@ h1.name {
   margin: 0 10%;
 }
 
+.favorites li {
+  height: 10%;
+  transition: all 0.8s ease;
+}
+
 h2:hover {
   color: #F7AF9D;
   text-shadow: 0 0 2px #ffffff, 0 0 15px #fce7e1, 0 0 20px #facfc4, 0 0 40px #facfc4;
@@ -60,6 +71,11 @@ h3:hover {
 h3 a {
   text-decoration: none;
   color: #696D79;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #6F9283;
 }
 
 /* h3 a:hover {
@@ -88,7 +104,7 @@ section.pseudofooter {
   align-items: space-around;
 }
 
-.misc {
+/* .misc {
   padding: 0 5%;
 }
 
@@ -99,33 +115,46 @@ section.pseudofooter {
 .dog img {
 
   filter: contrast(80%);
-  border: ridge 10px #6F9283;
-}
+  /* border: ridge 10px #6F9283; */
+/* }
 
 .dog img:hover {
   filter: contrast(120%);
-}
+}  */
 
-.dog p {
-  height: 0%;
+/* .dog p {
+  height: 30%;
   overflow: hidden;
   opacity: 0;
+  color: white;
 }
 
 .dog p:hover {
   opacity: 100%;
+  color: white;
   height: 100%;
   overflow: visible;
-}
+} */
 
-.contactme {
+/* .contactme {
   padding: 0 10%;
-}
+} */
 
 ul {
   list-style: none;
 }
 
 @keyframes buzzzz {
+  0% {
+    opacity: .9;
+    transform: translateY(0.05rem) translateX(0.1rem) translateZ(0.1) scale(0.1);
+  }
+  50% {
+    transform: translateY(0.08rem) translateX(-0.08rem);
+  }
+  70%, 100% {
+    opacity: 1;
+    transform: translateY(0.1rem) translateX(0.05rem) translateZ(-0.12) scale(1.05);
+  }
 
 }

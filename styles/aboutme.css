@@ -1,11 +1,42 @@
-body{
+body {
   background: black;
   display: grid;
-  grid-template-columns: repeat(2, 1fr)
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-row: 100px, 1fr;
   align-items: left;
+  width: 78vw;
   height: 100vh;
   font-family: 'Didact Gothic', sans-serif;
   color: #E6E1C5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul {
+  grid-column-row: 1;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around
+
+}
+
+nav ul a {
+  color: #E6E1C5;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #a8bdb4, 0 0 20px #d3ded9, 0 0 40px #d3ded9;
+}
+
+nav ul a:visited {
+  color: #F7AF9D;
+}
+
+nav ul li {
+  align-items: flex-start;
 }
 
 h2 {
@@ -14,26 +45,27 @@ h2 {
 
 .aboutme {
   grid-column-start: 2;
+  justify-content: flex-start;
   height: 750px;
   overflow: auto;
   margin: 5%;
 }
 
 .photos {
-  width: 500px;
+  grid-column-start: 1;
+  width: 520px;
   height: 800px;
-  margin: 10% 2%;
+  margin: 10% 10%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style-type: none;
 }
 
 .photos li {
   height: 10%;
   transition: all 0.8s ease;
-  border: outset 10px #6F9283;
+  border-top: outset 10px #6F9283;
 }
 
 .photos:hover li {

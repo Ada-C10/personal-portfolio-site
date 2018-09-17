@@ -47,8 +47,8 @@ div.e a:hover {
 }
 
 div.a a:hover {
-  color: #F7AF9D;
-  text-shadow: 0 0 2px #ffffff, 0 0 15px #fce7e1, 0 0 20px #facfc4, 0 0 40px #facfc4;
+  color: #696D79;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #b4b6bc, 0 0 20px #f0f0f1, 0 0 40px #f0f0f1;
 }
 
 .name div.n {
@@ -57,8 +57,8 @@ div.a a:hover {
 }
 
 div.n a:hover {
-  color: #696D79;
-  text-shadow: 0 0 2px #ffffff, 0 0 15px #b4b6bc, 0 0 20px #f0f0f1, 0 0 40px #f0f0f1;
+  color: #F7AF9D;
+  text-shadow: 0 0 2px #ffffff, 0 0 15px #fce7e1, 0 0 20px #facfc4, 0 0 40px #facfc4;
 }
 
 .name div.n2 {
@@ -78,7 +78,7 @@ div.n2 a:hover {
 
 @keyframes slide {
   from {
-    transform: translate(-40rem);
+    transform: translate(-50rem);
   }
    to {
     transform: translate(0rem);
@@ -88,7 +88,7 @@ div.n2 a:hover {
 
 @keyframes oops-slide {
   0%, 5% {
-    transform: translate(-40rem);
+    transform: translate(-60rem);
   }
   45%, 55% {
     transform: translate(12rem);
