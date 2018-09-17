@@ -1,0 +1,30 @@
+body {
+
+}
+nav  li {
+  border-right: 1px solid black;
+  color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+  border-radius: 30%;
+}
+
+.grid-container {
+  padding-top: 1rem;
+}
+
+.grid-container h1 {
+  font-size: 3rem;
+}
+
+h1, p {
+  text-align: center;
+}

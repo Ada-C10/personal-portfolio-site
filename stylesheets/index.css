@@ -15,7 +15,6 @@ border-right: 1px solid white;
 color: white;
 }
 
-
 a:hover {
   color: white;
 }
@@ -38,7 +37,7 @@ a:visited {
 
 .hero-img h1 {
     /* Text styles */
-    font-size: 4em;
+    font-size: 5em;
     color: orange;
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -46,5 +45,6 @@ a:visited {
 }
 
 h3 {
-  color: orange;
+  color: yellow;
+  font-size: 1.5em;
 }
