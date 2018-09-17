@@ -48,6 +48,7 @@ header h1, h2, h3{
   border: dashed .1em #5a470b;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -73,6 +74,10 @@ a:hover {
   border: .7em ridge #593a90;
   /* margin-left: 1em; */
   /* border-image: url(../images/goldcircle.jpg); */
+}
+
+.contents-list img:hover {
+  border: 1em ridge #593a90;
 }
 
 .blurb {
