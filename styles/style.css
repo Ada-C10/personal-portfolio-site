@@ -13,6 +13,7 @@ body {
 nav {
   background-color: white;
   border: solid pink 5px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 nav ul {
@@ -24,6 +25,7 @@ nav ul {
 
 h1 {
   text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 ul {
