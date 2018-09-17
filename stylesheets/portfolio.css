@@ -5,7 +5,14 @@ body {
   color: #02323F;
 }
 
+h2 a {
+  color: #02323F;
+  text-decoration: none;
+}
 
+h2 a:hover {
+  color: gray;
+}
 .project-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

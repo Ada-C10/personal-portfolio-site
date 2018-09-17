@@ -106,3 +106,13 @@ footer {
   border-color: #E4E5E3;
   color: #02323F;
 }
+
+ul li a {
+  color: #02323F;
+  text-decoration: none;
+  font-size: small;
+}
+
+ul li a:hover {
+  color: lightgray;
+}
