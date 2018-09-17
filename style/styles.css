@@ -21,8 +21,19 @@ header h1, h2, h3{
   /* font-family: 'Fredericka the Great', cursive; */
 }
 
-.nav-content {
-  
+.nav-content{
+  grid-column: 1;
+  list-style-type: none;
+}
+
+.nav-item{
+  display:inline-block;
+}
+
+.nav-item a::after {
+  display: inline-block;
+  color: gold;
+  content: '  ';
 }
 
 .top-quote {
@@ -67,4 +78,7 @@ a:hover {
   /* margin-left: 1em; */
   /* border-image: url(../images/goldcircle.jpg); */
 }
-/*
+
+.blurb {
+  
+}
