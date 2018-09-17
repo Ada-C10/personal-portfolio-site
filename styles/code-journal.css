@@ -66,6 +66,16 @@ a.current:visited {
   color: #f88379;
 }
 
+img {
+  padding-top: 20px;
+  display: block;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  /* shape-image-threshold: rect(10px,60px,200px,0px); */
+}
+
 .my_journey > h4 {
   font-family: 'Francois One', sans-serif;
   font-size: 1.5em;
@@ -78,7 +88,7 @@ a.current:visited {
 
 .my_journey > article {
   font-family: 'Hind Siliguri', sans-serif;
-  font-size: 1em;
+  font-size: 1.15em;
   color: #888888;
   margin-right: 18%;
   margin-left: 18%;

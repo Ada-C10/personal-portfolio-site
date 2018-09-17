@@ -96,7 +96,6 @@ a.current:visited {
   padding: 20px;
   font-size: 150%;
   grid-column: span 2;
-  color: black;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -105,8 +104,11 @@ a.current:visited {
   grid-column: 2 / span 2;
 }
 
-.box > a {
+.box > a:link {
   text-decoration: none;
+}
+
+.box > a:visited {
   color: black;
 }
 
@@ -121,12 +123,7 @@ a.current:visited {
   object-fit: scale-down;
   max-width:100%;
   max-height:auto;
-  border: 2px solid black;
-}
-
-.img:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {
