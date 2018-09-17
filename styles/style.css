@@ -1,10 +1,5 @@
-/* * {
-  border: 1px solid black;
-} */
-
 
 /*shared styles*/
-
 body {
   font-family: 'Frank Ruhl Libre', Sans-Serif;
 }
@@ -34,7 +29,6 @@ img {
   height: inherit;
 }
 
-
 h2 {
   background-color: #fa2f4b;
   color: white;
@@ -43,10 +37,7 @@ h2 {
   font-family: Raleway, sans-serif;
 }
 
-
 .footer {
-  /* grid-row-start: 4;
-  grid-row-end: 5; */
   background-color: #0d292c;
   padding: 1em 2em;
   display: flex;
@@ -57,9 +48,8 @@ h2 {
 
 .footer a {
   text-decoration: none;
-  color: #975a5e;
+  color: gold;
 }
-
 
 
 /*index-specific styles*/
@@ -83,7 +73,6 @@ background-repeat: repeat;
   align-items: center;
 }
 
-
 h1 {
   text-align: center;
   color: white;
@@ -96,7 +85,6 @@ h1 {
   letter-spacing: .3vw;
 }
 
-
 .projects {
   grid-row-start: 3;
   grid-row-end: 4;
@@ -108,12 +96,10 @@ h1 {
   align-items: flex-start;
 }
 
-
 .projects div {
   width: 23em;
   height: 18em;
 }
-
 
 .projects div:nth-of-type(2n+1) {
   display: flex;
@@ -123,12 +109,10 @@ h1 {
   justify-content: center;
 }
 
-
 .overlay {
   overflow: hidden;
   position: relative;
 }
-
 
 .overlay-text {
   font-size: 1em;
@@ -148,7 +132,16 @@ h1 {
   opacity: .5;
 }
 
-
 .overlay:hover .overlay-text {
   top: 100px;
+}
+
+h3 a{
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #fa2f4b;
+}
+
+.text-resize {
+  font-size: 1.3em;
 }

@@ -1,18 +1,12 @@
-/* * {
-  border: 1px solid black;
-} */
-
 .page-container {
 grid-template-columns: 35% 65%;
 grid-template-rows: 5% 90% 5%;
 }
 
-
 .nav {
   grid-column-start: 1;
   grid-column-end: 3;
 }
-
 
 .sidebar {
   grid-column-start: 1;
@@ -26,7 +20,6 @@ grid-template-rows: 5% 90% 5%;
   background-position: center;
 }
 
-
 .main {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -36,7 +29,6 @@ grid-template-rows: 5% 90% 5%;
   flex-direction: column;
   padding-bottom: 1em;
 }
-
 
 h2 {
   margin: 2em 45vw 0em 2vw;
@@ -50,7 +42,6 @@ h3 {
   text-align: left;
 }
 
-
 p {
   font-size: 1.5em;
   margin: 0em 8vw .5em 2vw;
@@ -63,7 +54,6 @@ p {
   margin: 0em 45vw .5em 2vw;
   padding-left: .5em;
   border-radius: 10%;
-
 }
 
 .footer {
