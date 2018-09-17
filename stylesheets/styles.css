@@ -82,7 +82,7 @@ li {
   grid-column: 2;
 }
 
-#projects:hover {
+#mainpage li:hover {
   background-color: peachpuff;
   background-image: url("images/ScreenShot02.png");
 }
