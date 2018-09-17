@@ -1,0 +1,108 @@
+.container {
+  display: grid;
+  grid-row: 4;
+}
+
+nav {
+  grid-template-rows: 1 / span 1;
+}
+
+header {
+  margin-top:3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.texture a {
+  color: #8B0000;
+}
+header {
+}
+
+main {
+  grid-template-rows: 3 / span 1;
+}
+
+footer {
+  grid-template-rows: 4 / span 1;
+}
+
+nav {
+  position: fixed;
+  margin-top: 0%;
+  top: 0px;
+  width: 100%;
+  z-index: 10000;
+  background-color:#00bcd4;
+}
+
+nav a:hover{
+  background-color: lightblue;
+  border: 5px dashed lightpink;
+}
+
+h2 {
+  color: white;
+  font-family: 'Spectral', serif;
+  font-size: 3em;
+}
+
+.likes {
+  background-color: #fa8070;
+  display: grid;
+  grid-column-gap: 1em;
+}
+
+.likes h2 {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 1;
+  justify-self: center;
+}
+
+.section-content {
+  color: black;
+  justify-self: center;
+  padding-left: 4em;
+  padding-right: 4em;
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+  padding-bottom: 1em;
+}
+
+.laptop {
+  grid-column: 1 / span 2;
+
+  grid-row: 3 / span 2;
+  padding: 2em;
+  justify-self: center;
+}
+
+.laptop li:first-child {
+  padding-bottom: 4em;
+  border-bottom: white solid;
+}
+
+.laptop li:last-child{
+padding-top: 4em;
+padding-bottom: 4em;
+  border-bottom: white solid;
+}
+
+.books {
+  background-color: #ffff008c;
+}
+
+.books h2 {
+  color: black;
+  justify-self: center;
+}
+
+.photos {
+  background-color: #009688fc;
+}
+
+.books h2 {
+  color: black;
+  justify-self: center;
+}

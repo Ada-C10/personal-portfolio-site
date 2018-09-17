@@ -1,0 +1,57 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, ul {
+margin: 0;
+}
+
+h1, h2 {
+  padding: 1.5em;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: lightpink;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+li a {
+color: white;
+text-decoration: none;
+}
+
+.texture {
+  background-image:  url("../assets/iceland-volcano.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #8B0000;
+  text-align: center;
+}
+
+.explore a {
+color: #8B0000;
+text-decoration: none;
+}
+
+nav > ul li a:hover, .explore a:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+ nav > ul li a:active, .explore a:active {
+  color: blue;
+}
+
+footer {
+  padding: .5em;
+  background-color: lightpink;
+}

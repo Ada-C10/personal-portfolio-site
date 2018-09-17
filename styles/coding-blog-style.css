@@ -1,0 +1,7 @@
+
+.side-bar a:hover {
+  padding-right: 35%;
+  box-shadow: inset -20px -3px black;
+  background-color: #BBFFFF;
+  color: magenta;
+}
