@@ -1,0 +1,16 @@
+body {
+  font-family: 'Noto Serif JP', sans-serif;
+  text-align: left;
+  font-size: 24px;
+  padding: 0;
+}
+
+font-family: 'Noto Serif JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 75px;
+  color: #f9d477;
+ }
