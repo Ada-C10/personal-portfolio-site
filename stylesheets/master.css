@@ -30,7 +30,7 @@ text-decoration: none;
 }
 
 .texture {
-  background-image:  url("../assets/iceland-volcano.jpg");
+  background-image:  url("../images/iceland-volcano.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: #8B0000;
