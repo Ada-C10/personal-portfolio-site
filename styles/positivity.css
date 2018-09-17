@@ -47,10 +47,11 @@ img {
   background-color: #B2A3B5;
 }
 h3{
+    height: 50px;
     font-family: 'Bad Script';
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
-    margin: auto;
+    margin-bottom: 5px;
     padding: 5px;
     background-color: #B2A3B5;
 }
@@ -84,7 +85,7 @@ ul{
   justify-content: center;
   font-size: 1em;
   font-family: 'Bad Script';
-  list-style-image: url(/Users/xtina206/ada/week-six/personal-portfolio/images/star.png);
+  list-style-image: url(/Users/xtina206/ada/week-six/personal-portfolio-site/images/star.png);
 
 }
 .img-container{
