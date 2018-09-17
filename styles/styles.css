@@ -10,6 +10,8 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 40px;
+  min-width: 600px;
+  max-width: 1200px;
 }
 
 .background {
@@ -37,9 +39,26 @@ h1, h2, h3, h4, h5, h6 {
 #navigation-bar ul {
   list-style: none;
 }
+#navigation-bar a {
+text-decoration: none;
+color: rgba(214, 48, 49,1.0);
+font-size: 18px;
+font-weight: bold;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+#navigation-bar a:hover {
+  background-color: rgba(255, 234, 167,.4);
+  padding-top:20px;
+  padding-bottom:18px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: -12px;
+  text-shadow: none;
+}
 
 .nav-container {
   display:flex;
+  flex-wrap: nowrap;
   justify-content: space-around;
   background: rgba(255, 118, 117,.7);
   box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
@@ -52,10 +71,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -1em;
   margin-right: -1em;
 }
+.nav-container li {
+  padding-left: 1em;
+  padding-right: 4em;
+}
+.nav-container :first-child{
+  flex-grow: 1;
+}
+
 
 #welcome-banner {
   grid-column: 1;
   grid-row: 2;
+  position: relative;
   background: linear-gradient(
   rgba(250, 177, 160,.8), rgba(225, 112, 85,.4));
   height: 250px;
@@ -67,19 +95,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #welcome-banner h1 {
-  padding: 2em;
-  position: inherit;
-  margin-top: -1em;
-  margin-left: 7em;
-  margin-right: 7em;
-  margin-bottom: 4em;
-  font-weight: 200;
-  color: rgba(255, 118, 117,1.0);
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  margin-top: 1em;
+  padding-left: 5em;
+  padding-right: 7em;
+  text-align: center;
+  width: 600px;
+  color: rgba(255, 234, 167,1.0);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
   line-height: 40px;
 }
 #welcome-banner h1>strong {
-  color: rgba(255, 234, 167,1.0);
+  color: rgba(214, 48, 49,1.0);
 }
 
 #footer {
