@@ -35,6 +35,13 @@
   /* margin-top: -10px; */
 }
 
+.project_list a {
+  text-decoration: none;
+  color: rgb(246, 244, 235);
+
+
+}
+
 .projects {
   grid-row: 2/5;
   grid-column: 3/5;
@@ -42,7 +49,6 @@
   grid-template-rows: repeat(3, minmax(10px, 1fr));
   background-color: rgb(233, 224, 199);
 
-  /* margin-top: -10px; */
 }
 
 .projects div {
