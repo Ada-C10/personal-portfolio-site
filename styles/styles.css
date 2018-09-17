@@ -42,11 +42,6 @@ h1.name {
   animation: buzzzz 1s infinite linear;
 }
 
-/* h1.name:hover {
-  color: #B0D0D3;
-  text-shadow: 0 0 2px #ffffff, 0 0 15px #70ffff, 0 0 20px #46fdff, 0 0 40px #46fdff;
-} */
-
 .hide {
   display: none;
  }
@@ -81,18 +76,9 @@ h1.name {
 
 }
 
-.books {
-
-}
-
 .favorites {
   padding: 0 10%;
   margin: 0 10%;
-}
-
-.favorites li {
-  height: 10%;
-  transition: all 0.8s ease;
 }
 
 h2:hover {
@@ -105,21 +91,21 @@ h3:hover {
   text-shadow: 0 0 2px #ffffff, 0 0 15px #f5f3e7, 0 0 20px #f0eddc, 0 0 40px #f0eddc;
 }
 
+h2 a {
+  text-decoration: none;
+  color: #F7AF9D;
+}
+
+h2 a:visited {
+  color: #F7AF9D;
+  text-decoration: line-through;
+}
+
 h3 a {
   text-decoration: none;
   color: #696D79;
 }
 
-.projects a {
-  text-decoration: none;
-  color: #6F9283;
-}
-
-/* h3 a:hover {
-  color: #E6E1C5;
-  text-decoration: none;
-  text-shadow: 0 0 2px #ffffff, 0 0 15px #f5f3e7, 0 0 20px #f0eddc, 0 0 40px #f0eddc;
-} */
 
 h3 a:visited {
   color: #cfc590;
@@ -130,6 +116,11 @@ p.aboutme {
   justify-content: flex-end;
 }
 
+.projects a {
+  text-decoration: none;
+  color: #6F9283;
+}
+
 
 section.pseudofooter {
   display: flex;
@@ -137,20 +128,22 @@ section.pseudofooter {
   grid-column-start: 1;
   grid-column-end: 4;
   flex-direction: row;
-  justify-content: center;
-  align-items: space-around;
+  justify-content: flex-start;
+  align-items: space-between;
 }
 
-/* .misc {
+.misc {
   padding: 0 5%;
 }
 
 .dog {
-    padding: 0 10%;
+    padding: 0 5%;
 }
-/*  */
+
 .dog img {
   filter: contrast(80%);
+  align-items: center;
+  justify-content: center;
 }
 
 .dog img:hover {
