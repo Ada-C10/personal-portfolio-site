@@ -28,6 +28,10 @@ main {
 
 }
 
+.name {
+  width: 30rem;
+}
+
 h1.name {
   font-family: 'Londrina Shadow', cursive;
   font-size: 5rem;
@@ -41,7 +45,7 @@ h1.name {
   display: none;
  }
 
- .selectme ul {
+.selectme ul {
    /* margin-top: -5%; */
  }
 
@@ -116,7 +120,6 @@ p.aboutme {
   color: #6F9283;
 }
 
-
 section.pseudofooter {
   display: flex;
   min-size: 100%;
@@ -132,12 +135,16 @@ section.pseudofooter {
 }
 
 .dog {
-    padding: 0 5%;
+  padding: 0 5%;
 }
+
+/* .dog p {
+    text-align: center;
+} */
 
 .dog img {
   filter: contrast(80%);
-  align-items: center;
+  align-content: center;
   justify-content: center;
 }
 
