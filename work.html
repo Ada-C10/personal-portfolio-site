@@ -4,9 +4,19 @@
 <head>
   <meta charset="utf-8">
   <title>m a d a l e i n e S.</title>
+
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   <link href="styles/normalize.css" rel="normalizesheet">
   <link href="styles/styles.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+  <style>
+  .mySlides {display:none}
+  .demo {cursor:pointer}
+</style>
 </head>
 
 <body>
@@ -26,7 +36,7 @@
               <a href="play.html">play</a>
             </li>
           </ul>
-        <!-- </li> -->
+        </li>
       </nav>
 
       <nav class="connect">
@@ -51,18 +61,59 @@
       </section>
     </header>
 
-    <!-- <section class="head-title">
-      <h3 class="title"><a href="index.html">m a d a l e i n e S.</a></h3>
-    </section> -->
-
     <section class="content">
-      <p>she/her
-      </p>
+      <div class="w3-container">
+        <h2>p l a y</h2>
+      </div>
+
+      <div class="w3-content" style="max-width:600px">
+        <img class="mySlides" src="https://www.w3schools.com/w3css/img_mountains_wide.jpg" style="width:100%">
+        <img class="mySlides" src="https://www.w3schools.com/w3css/img_snow_wide.jpg" style="width:100%">
+        <img class="mySlides" src="https://www.w3schools.com/w3css/img_mountains_wide.jpg" style="width:100%">
+
+        <div class="w3-row-padding w3-section">
+          <div class="w3-col s4">
+            <img class="demo w3-opacity w3-hover-opacity-off" src="https://www.w3schools.com/w3css/img_mountains_wide.jpg" style="width:100%" onclick="currentDiv(1)">
+          </div>
+          <div class="w3-col s4">
+            <img class="demo w3-opacity w3-hover-opacity-off" src="https://www.w3schools.com/w3css/img_snow_wide.jpg" style="width:100%" onclick="currentDiv(2)">
+          </div>
+          <div class="w3-col s4">
+            <img class="demo w3-opacity w3-hover-opacity-off" src="https://www.w3schools.com/w3css/img_mountains_wide.jpg" style="width:100%" onclick="currentDiv(3)">
+          </div>
+        </div>
+      </div>
+
+      <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+        }
+        x[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " w3-opacity-off";
+      }
+      </script>
     </section>
 
-    <section class="content">
-      <img src="https://placeimg.com/600/450/any" />
-    </section>
 
     <footer class="footer">
       <ul>
