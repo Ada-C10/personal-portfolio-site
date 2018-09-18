@@ -41,6 +41,21 @@ h1.name {
   animation: buzzzz 1s infinite linear;
 }
 
+.favorites, .skills, .projects {
+  background-color: #b0d0d310;
+  border-radius: 10%;
+  border: #e6e1c570 5px double;
+}
+
+.projects sub {
+  line-height: 10%;
+}
+
+.skills, .projects {
+  padding: 5%;
+  line-height: 2rem;
+}
+
 .hide {
   display: none;
  }
@@ -132,20 +147,39 @@ section.pseudofooter {
 
 .misc {
   padding: 0 5%;
+  background-color: #6f928320;
+  width: 20rem;
+  border-radius: 10%;
+  border: #e6e1c570 5px double;
+  margin-bottom: 5%;
 }
 
 .dog {
   padding: 0 5%;
+  height: 25rem;
+  width: 25rem;
+  /* background-color: #f7af9d; */
+  /* border-radius: 40%; */
+  overflow: scroll;
 }
 
-/* .dog p {
-    text-align: center;
+.dog p {
+  text-align: center;
+  opacity: 1;
+  line-height: 2rem;
+}
+
+/* .dog p:hover {
+    opacity: 1;
+    overflow: visible;
+
 } */
 
 .dog img {
   filter: contrast(80%);
   align-content: center;
   justify-content: center;
+  float: left;
 }
 
 .dog img:hover {
@@ -154,6 +188,16 @@ section.pseudofooter {
 
 ul {
   list-style: none;
+}
+
+.contactme {
+  width: 15rem;
+  line-height: 2rem;
+  background-color: #6f928320;
+  border-radius: 25%;
+  border: #e6e1c570 5px double;
+  margin-bottom: 25%;
+  padding-left: 2%;
 }
 
 @keyframes buzzzz {
