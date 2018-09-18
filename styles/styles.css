@@ -1,0 +1,124 @@
+body {
+  margin: 10px;
+  padding: 5px;
+  display: grid;
+  grid-template-rows: repeat(4, 200px);
+  grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  grid-template-areas:
+  "Header header"
+  "content"
+  "content"
+  "Footer footer";
+  background-image: url("../images/2.jpg");
+}
+
+* {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav li {
+  position: fixed;
+  text-align: center;
+  display: grid;
+  grid-template-columns:repeat(auto-fit, minmax(60px, 1fr));
+  list-style-type: none;
+  grid-gap: 0px;
+}
+
+nav li ul li {
+  font-size: 70%;
+  font-weight: normal;
+  display: block;
+
+}
+
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  cursor: pointer;
+  list-style: none;
+}
+
+#hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+#visible:hover #hidden {
+  visibility: visible;
+  opacity: 1;
+}
+
+.categories {
+  float: left;
+  padding: 30px 90px;
+
+}
+
+.connect {
+  float: right;
+  padding: 30px 90px;
+
+}
+
+.head-title {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+
+}
+
+.content {
+  grid-area: content;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+
+}
+
+header ul li{
+width:auto;
+position: relative;
+transition: background 250ms ease-in;
+line-height: 10px;
+display:block;
+padding: 5px
+}
+header ul li:hover{
+color: #0d47a1;
+}
+header ul ul{
+overflow:visible;
+position: absolute;
+visibility: hidden;
+top: 100%;
+width: 0%;
+}
+header ul ul li{
+border:none;
+display:block;
+position: absolute;
+left:0;
+margin:0px;
+}
+
+header a{
+text-decoration: none;
+color: inherit;
+margin: 0px 0px;
+}
