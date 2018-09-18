@@ -1,0 +1,14 @@
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.face img {
+  padding: 2px;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  width: 225px;
+  height: auto;
+  margin-bottom: 10px;
+}
