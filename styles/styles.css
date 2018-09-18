@@ -29,7 +29,7 @@ html{
 
 a {
   text-decoration: none;
-  color: rgba(148, 187, 140, 0.75);
+  color: rgb(92, 153, 124);
 }
 
 a:hover {
@@ -61,7 +61,7 @@ a:hover {
 /* MAIN CONTENT  */
 
 
-main {
+.content {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 

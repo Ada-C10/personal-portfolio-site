@@ -5,8 +5,8 @@
 }
 
 .face img {
-  padding: 2px;
-  border: 2px solid lightgray;
+  padding: 3px;
+  border: 2px dotted rgba(130, 186, 173, 0.68);
   border-radius: 50%;
   width: 225px;
   height: auto;
