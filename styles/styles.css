@@ -104,8 +104,18 @@ li {
 }
 
 .pronouns {
+  font-size: 70%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 33%;
+}
+
+.summ {
+  grid-area: content;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  padding: 0px 33%;
 }
 
 .content {
@@ -114,7 +124,6 @@ li {
   justify-content: space-around;
   align-items: center;
   padding: 50px;
-
 }
 
 .content .elfsight-app-514442e9-c80b-475e-93bf-44ca04f9902e{
