@@ -1,11 +1,8 @@
 /* ENTIRE PAGE */
-
 * {
   background-color: rgb(236, 236, 236);
   font-family: 'Alegreya', serif;
   font-weight: lighter;
-  box-sizing: border-box;
-  /* border: 2px tomato dotted; */
 }
 
 ul {
@@ -20,6 +17,7 @@ h1 {
 html{
   height: 100%;
 }
+
 .grid-container {
   min-height: 100%;
   display: grid;
@@ -60,11 +58,9 @@ a:hover {
 
 /* MAIN CONTENT  */
 
-
 .content {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-
 }
 
 

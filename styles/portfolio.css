@@ -8,12 +8,8 @@ main {
   padding: 20px 50px;
 }
 
-.name a {
-  color: black;
-}
 
 .name:hover{
   text-transform: uppercase;
-  font-size: 1.5em;
-  background-blend-mode: lighten;
+  font-size: 1.2em;
 }
