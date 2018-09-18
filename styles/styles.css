@@ -1,6 +1,5 @@
 body {
   font-size: 100%;
-
   margin: 10px;
   padding: 5px;
   display: grid;
@@ -11,7 +10,6 @@ body {
   "content"
   "content"
   "Footer footer";
-  background-image: url("../images/2.jpg");
 }
 
 * {
@@ -28,6 +26,8 @@ a {
 }
 
 nav li {
+  font-family: 'Playfair Display', serif;
+
   position: fixed;
   text-align: center;
   display: grid;
