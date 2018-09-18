@@ -59,7 +59,7 @@ header h2 {
 
 .menu {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-bottom: 10px;
 }
 
@@ -68,22 +68,27 @@ ul {
   padding-left: 0;
 }
 
-#portfolio {
+#home {
   grid-column-start: 1;
   text-align: center;
 }
 
-#publications {
+#portfolio {
   grid-column-start: 2;
   text-align: center;
 }
 
-#hobbies {
+#publications {
   grid-column-start: 3;
   text-align: center;
 }
 
-.button {
+#hobbies {
+  grid-column-start: 4;
+  text-align: center;
+}
+
+.menu li {
   border-radius: 12px;
   border:1px dotted gray;
   background-color: wheat;

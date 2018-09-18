@@ -22,7 +22,8 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   font-family: Special Elite;
   padding-bottom: 0;
-  padding-top: 4rem;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
   border-bottom: 3px double gray;
   background-image: url("../images/background.jpg");
   background-size:cover;
@@ -69,12 +70,12 @@ ul {
   text-align: center;
 }
 
-.button {
+.menu li {
   border-radius: 12px;
   border:1px dotted gray;
   background-color: wheat;
   font-style: bold;
   padding:15px;
-  font-size: 15px;
+  font-size: 20px;
   margin: 4px 4px;
 }

@@ -19,7 +19,7 @@ body {
   grid-template-columns: 1fr 3fr 1fr;
   font-family: Special Elite;
   padding-bottom: 0;
-  padding-top: 4rem;
+  padding-top: 12rem;
   border-bottom: 3px double gray;
   background-image: url("../images/background.jpg");
   background-size:cover;

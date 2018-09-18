@@ -25,12 +25,11 @@ body {
   font-size: 2rem;
   align-items: center;
   padding-bottom: 1rem;
-  padding-top: 3rem;
   border-bottom: 5px double gray;
   background-image: url("../images/background.jpg");
   background-size:cover;
   background-repeat: no-repeat;
-  padding-top: 7rem;
+  padding-top: 15rem;
   padding-bottom: 1rem;
 }
 
@@ -42,6 +41,7 @@ ul{
 .phrase {
   padding-top: 1rem;
   padding-bottom: 10rem;
+  color: DarkViolet;
 }
 
 .phrase h3 {
@@ -50,8 +50,7 @@ ul{
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;
-  animation:
-  typing 3.5s steps(40, end),
+  animation: typing 3.5s steps(40, end),
   blink-caret .85s step-end infinite;
 }
 
@@ -70,7 +69,7 @@ ul{
 .menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-bottom: 120px;
+  padding-bottom: 200px;
 }
 
 #about {
@@ -93,14 +92,14 @@ ul{
   text-align: center;
 }
 
-.button {
+.menu li {
   border-radius: 12px;
   border:1px dotted gray;
   background-color: wheat;
   font-style: bold;
   padding:20px;
   display:inline;
-  font-size: 20px;
+  font-size: 25px;
   margin: 4px 4px;
 }
 
