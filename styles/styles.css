@@ -24,7 +24,7 @@ html{
   min-height: 100%;
   display: grid;
   grid-template-columns: 200px 50% auto;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr;
 }
 
 a {
