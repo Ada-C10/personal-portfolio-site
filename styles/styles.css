@@ -16,6 +16,22 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+title h3 h2{
+  letter-spacing: 4px;
+}
+
+h3{
+  letter-spacing: 4px;
+}
+
+h2{
+  letter-spacing: 4px;
+}
+
+nav li ul li {
+  letter-spacing: 4px;
+}
+
 header {
   font-size: 20px;
 }
@@ -85,6 +101,11 @@ li {
   align-items: center;
   padding: 50px;
 
+}
+
+.pronouns {
+  display: flex;
+  justify-content: space-around;
 }
 
 .content {
