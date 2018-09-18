@@ -5,12 +5,13 @@
 body {
   display: flex;
   flex-direction: column;
-  margin: 0 15%;
-  max-width: 60%;
+  margin: 0 20%;
+  max-width: 55%;
   flex-wrap: wrap;
   background-color: black;
   color: #696D79;
   font-family: 'Didact Gothic', sans-serif;
+  font-size: 1.1rem;
 }
 
 header {
@@ -21,10 +22,9 @@ header {
 
 main {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 5rem;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr;
-  /* justify-content: space-between; */
+  grid-template-rows: 1fr -1fr;
 
 }
 
@@ -144,24 +144,6 @@ section.pseudofooter {
 .dog img:hover {
   filter: contrast(120%);
 }
-
-/* .dog p {
-  height: 30%;
-  overflow: hidden;
-  opacity: 0;
-  color: white;
-}
-
-.dog p:hover {
-  opacity: 100%;
-  color: white;
-  height: 100%;
-  overflow: visible;
-} */
-
-/* .contactme {
-  padding: 0 10%;
-} */
 
 ul {
   list-style: none;
