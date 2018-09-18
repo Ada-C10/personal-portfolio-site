@@ -52,6 +52,7 @@ h2 {
 }
 
 .codephotos {
+  padding-top: 5%;
   grid-column-start: 2;
   width: 800px;
   height: 1000px;
