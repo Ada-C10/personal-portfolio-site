@@ -179,6 +179,8 @@ section.pseudofooter {
   filter: contrast(80%);
   align-content: center;
   justify-content: center;
+  border: #e6e1c570 5px double;
+  border-radius: 15%;
   float: left;
 }
 
