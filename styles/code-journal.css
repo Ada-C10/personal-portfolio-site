@@ -52,7 +52,9 @@ h2 {
 
 .diary {
   padding-left: 10%;
-  height: 12%;
+  height: 11%;
+  line-height: 170%;
+  font-size: 1.2rem;
   opacity: 1;
   overflow: hidden;
 }
