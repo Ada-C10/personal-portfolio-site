@@ -55,6 +55,12 @@ a:link {
   color: white;
 }
 
+.header-nav a:link {
+  color: white;
+  text-decoration: none;
+}
+
+
 a:visited {
     color: white;
 }
@@ -71,6 +77,7 @@ a:visited {
   font-size: 20pt;
   vertical-align: middle;
   padding-top: 5rem;
+  color: #e6eaf2;
 }
 
 footer {
