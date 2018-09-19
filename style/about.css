@@ -10,26 +10,27 @@ body {
 
 .site-content-container {
   display: inline-grid;
-  grid-template-rows: 1fr 1fr 3fr;
-  grid-template-column: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-template-column: auto auto auto;
 }
 
 header {
   font-family: 'Noto Serif JP', sans-serif;
   grid-row: 1;
-  column-span: all;
+  grid-column-start: 1;
+  grid-column-end: 3;
   font-size: 20pt;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 h1 {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   grid-column: 1 / -1;
 
 }
 
 nav {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 ul {
@@ -41,12 +42,12 @@ ul {
   text-decoration: none;
   flex-direction: row;
   justify-content: space-around;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
 }
 
 ul li {
-  padding: 1px 50px;
+  padding: 1px 20px;
 
 }
 
@@ -59,19 +60,24 @@ a:visited {
 }
 
 .picture {
-  grid-row-start: 3;
+  grid-row-start: 2;
   grid-column-start: 2;
   grid-column-end: 3;
 }
 .about_me {
-  grid-row: 2 / span 3;
+  grid-row: 2;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
+  font-size: 20pt;
+  vertical-align: middle;
+  padding-top: 5rem;
 }
 
 footer {
   display: inline-inline-flex;
   flex-direction: row;
-  grid-row: 5;
-  grid-column: 2;
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  font-size: 12pt;
 }
