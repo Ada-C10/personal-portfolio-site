@@ -1,0 +1,47 @@
+/* *{
+  background-color: #EBDCCB;
+}h1{
+  display:flex;
+  font-size: 150px;
+  font-family: 'Bad Script';
+  justify-content: center;
+  padding: 10px;
+}
+p{
+  background-color: #B2A3B5;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  font-size: 15px;
+
+  font-family: sans-serif;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+p :link{
+  color: #000000;
+  background-color: #B2A3B5;
+  text-decoration: none;
+}
+p :hover, p :active{
+  color: white;
+  font-size: 150%;
+}
+body > p{
+  justify-content: center;
+}
+
+
+
+.footer {
+    display: inline-flex;
+    border: 1px solid white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #B2A3B5;
+    color: white;
+    justify-content: space-between;
+} */

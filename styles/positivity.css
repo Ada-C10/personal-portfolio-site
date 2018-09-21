@@ -1,0 +1,117 @@
+*{
+  background-color: #EBDCCB;
+}h1{
+  display:flex;
+  font-size: 150px;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  justify-content: center;
+  padding: 10px;
+}
+p{
+  background-color: #B2A3B5;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  font-size: 15px;
+
+  font-family: sans-serif;
+  justify-content: space-between;
+  padding: 5px;
+
+}
+p :link{
+  color: #000000;
+  background-color: #B2A3B5;
+  text-decoration: none;
+}
+p :hover, p :active{
+  color: white;
+  font-size: 150%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+    width: 19%;
+    height: 19%;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.place{
+  background-color: #B2A3B5;
+}
+h3{
+    height: 50px;
+    font-family: 'Bad Script';
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #B2A3B5;
+}
+h4{
+  font-size: 2em;
+  font-family: 'Bad Script';
+  text-align: center;
+}
+.list-container{
+  width: 300px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+  /* border: 1px solid black; */
+  margin-bottom: 15px;
+}
+.list-two-container{
+  width: 300px;
+  float: right;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-right: 80px;
+  /* border: 1px solid black; */
+  margin-bottom: 15px;
+}
+ul{
+  display: flex;
+  size: 500px;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1em;
+  font-family: 'Bad Script';
+  list-style-image: url(/Users/xtina206/ada/week-six/personal-portfolio-site/images/star.png);
+
+}
+.img-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+
+
+}
+.flex-three-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer {
+    display: flex;
+    border: 1px solid white;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #B2A3B5;
+    color: white;
+    justify-content: space-between;
+}
