@@ -1,0 +1,23 @@
+
+header {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.main-content ul {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: justify;
+  line-height: 1.75rem;
+}
+
+.main-content img {
+  border-radius: 50%;
+  height: 300px;
+}
