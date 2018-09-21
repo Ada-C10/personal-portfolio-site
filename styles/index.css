@@ -1,0 +1,19 @@
+/* Page Grid */
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "title"
+    "nav";
+}
+
+.header {
+  grid-area: header;
+}
+.title {
+  grid-area: title;
+}
+.nav {
+  grid-area: nav;
+}
