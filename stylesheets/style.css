@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+body {
+    /*background-color: #edf2f4;*/
+    background-color: #2b2d42;
+    color: #edf2f4;
+    padding: 0;
+    margin: 0;
+    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-rows: 4em 200px 640px 200px auto;
+    grid-template-columns: 2fr 2fr;
+}
+
+ul{
+    list-style: none;
+}
+a {
+    color: #05668d;
+}
+a:hover{
+    color: #f77f00;
+}
+.container header{
+    grid-column: 1 / -1;
+    grid-row: 1;
+    display: flex;
+    /*align-self: center;*/
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: #edf2f4;
+    color: #d90429;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+#center-piece {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+    /*padding: 1px;*/
+    padding: 0;
+    margin: 0;
+    border: 10px solid #1c1d1d;
+    border-radius: 50%;
+    position: relative;
+    background: url("../images/elle-johnnie.svg");
+    display: inline-block;
+    ;
+}
+
+#center-piece img {
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#center-piece img.top:hover {
+    opacity: 0;
+}
+
+#center-piece img.bottom {
+    border-radius: 50%;
+}
+
+.orbit a > img{
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+    border: 2px solid #1c1d1d;
+    border-radius: 50%;
+}
+
+.orbit img:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 30px 0px #edf2f4;
+    -moz-box-shadow:    0px 0px 30px 0px #edf2f4;
+    box-shadow:         0px 0px 30px 0px #edf2f4;
+}
+
+#portfolio{
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    display: flex;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+ #journal{
+    grid-row: 4;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    align-self: flex-start;
+}
+
+#cv{
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-self: center;
+    align-self: flex-end;
+
+}
+#about{
+    grid-row: 4;
+    grid-column: 2;
+    display: flex;
+    justify-self: center;
+}
+
+nav {
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*justify-content: flex-end;*/
+    align-self: center;
+}
+
+footer ul{
+    grid-column: 2 / 3;
+    grid-row: 5;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+/*color pallette*/
+.these-colors{
+    color: #2b2d42;
+    color: #8d99ae;
+    color: #edf2f4;
+    color: #ef233c;
+    color: #d90429;
+
+    color: #003049;
+    color: #d62828;
+    color: #f77f00;
+    color: #fcbf49;
+    color: #eae2b7;
+
+    color: #05668d;
+    color: #028090;
+    color: #00a896;
+    color: #02c39a;
+    color: #f0f3bd;
+
+}
