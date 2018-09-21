@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding:0px;
+    margin:0px;
+    font-family: "Open Sans";
+}
+
+
+ nav {
+  text-align: center;
+  background-color: transparent;
+  background-attachment: fixed;
+}
+
+ul {
+   list-style: none;
+}
+
+ nav ul {
+   padding: 1rem;
+   font-size: 1rem;
+   text-decoration: none;
+}
+
+nav li {
+   display: inline-block;
+   text-align: center;
+   padding: .3rem;
+}
+
+main {
+  /* padding-top: 5rem; */
+}
+
+footer {
+  padding-top: 4rem;
+}

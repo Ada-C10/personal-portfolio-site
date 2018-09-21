@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 100%;
+  background-image: url(../images/federico-bottos-744760-unsplash.jpg);
+  background-size: cover;
+}
+
+nav li {
+border-right: 1px solid white;
+color: white;
+}
+
+a:hover {
+  color: white;
+}
+a:visited {
+    color: white;
+}
+
+.hero-img {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.hero-img h1 {
+    /* Text styles */
+    font-size: 5em;
+    color: orange;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+h3 {
+  color: yellow;
+  font-size: 1.5em;
+}
