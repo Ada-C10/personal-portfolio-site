@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+a:link {
+  text-decoration: none;
+  font-family: serif;
+  padding-bottom: 5%;
+}
+
+a:visited {
+  color: yellow;
+}
+
+
+header {
+  grid-area: h;
+  text-align: right;
+  color: black;
+  font-size: 100%;
+  background-color: darkgray;
+  align-self: flex-end;
+}
+
+
+footer {
+  grid-area: f;
+  text-align: center;
+  vertical-align: top;
+  align-self: flex-start;
+  color: black;
+}
