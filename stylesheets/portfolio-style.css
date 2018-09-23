@@ -1,0 +1,62 @@
+h1{
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+.projects ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+
+}
+
+.oorideshare{
+  grid-area: a;
+  background-color: #85BFD2
+}
+
+.solarsystem{
+  grid-area: b;
+
+}
+
+.grocerystore{
+  grid-area: c;
+  background-color: #85BFD2
+}
+
+.rideshare{
+  grid-area: d;
+
+}
+
+.randommenu{
+  grid-area: e;
+  background-color: #85BFD2;
+}
+
+.calulator{
+  grid-area: f;
+  
+}
+
+  section ul a{
+  text-decoration: none;
+  color: #208AAE;
+
+
+
+}
+
+ section ul sub {
+   display: block;
+   font-size: 15px;
+   padding: 2em 2em;
+
+
+ }
