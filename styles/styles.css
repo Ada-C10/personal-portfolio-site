@@ -1,0 +1,163 @@
+body, html {
+    height: 100%;
+    margin:0;
+      padding:0;
+}
+
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+h3 {
+  font-family: 'Rock Salt', cursive;
+}
+body {
+  display: grid;
+  grid-gap: 10px;
+  height: 100%;
+  grid-template-columns:1fr;
+  grid-template-areas:
+             "nav"
+            "main"
+            "footer"
+
+  grid-template-rows: 100px 1fr 80px;
+}
+nav{
+  grid-area: nav;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+
+.main {
+   grid-area: main;
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+footer.column-layout {
+  grid-area: footer;
+  clear: both;
+  color: white;
+
+  }
+
+html {
+background: url("../images/crystal.png") no-repeat 50% 50% fixed;
+background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+-webkit-background-size: cover;
+}
+
+.column-layout{
+  display: flex;
+  justify-content: center;
+  margin: 40px auto 0 auto;
+  line-height: 1.65
+  padding:250px 50px;
+  text-align: center;
+}
+
+#iconpic, img{
+ width: 30%;
+}
+
+.maincolumn{
+flex: 1;
+order: 2;
+
+}
+
+.sidebar1{
+flex: 1;
+order: 3;
+}
+
+.sidebar2{
+flex:1 ;
+order: 1;
+}
+.sidebar3{
+flex:1 ;
+order: 1;
+}
+
+
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
