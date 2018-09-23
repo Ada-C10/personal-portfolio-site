@@ -1,0 +1,92 @@
+.main  {
+  font-family: 'Lobster', cursive;
+  color: white;
+  background-image: url("img1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  list-style: none;
+}
+
+.tab {
+  background-color: white;
+}
+
+.tab > div {
+  background-color: pink;
+  width: 15%;
+  height: 80em;
+  list-style: none;
+}
+
+.main > header h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main > div h1 {
+  font-size: 10em;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 0em;
+  margin-bottom: 0em;
+
+}
+
+.main > div nav a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.main > div nav a:link {
+  color: white;
+}
+.main > div nav a:visited {
+  color: pink;
+}
+
+.main > div nav a:hover {
+  color: pink;
+  transition: all 3s ease;
+}
+
+.one {
+  font-size: 3em;
+}
+
+.two {
+  font-size: 2em;
+}
+
+.main > header {
+  margin-left: -2em;
+  padding-top: -1.4em;
+  padding-left: 2em;
+  height: 8em;
+}
+
+
+.main > div {
+  padding-top: 4em;
+  padding-bottom: 8em;
+}
+
+.main > footer ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  transform: scale(0.3);
+}
+
+.main > footer {
+  margin-top: -7em;
+  width: 5%;
+  margin-left: 80em;
+}
+
+.main > footer ul li a {
+  padding-left: 2em;
+}
