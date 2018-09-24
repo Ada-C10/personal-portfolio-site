@@ -1,14 +1,17 @@
 body {
-  /* display: grid;
+  display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr; */
+  grid-template-rows: .5fr 1fr 1fr 1fr 1fr 1fr;
   background: url(http://hdblackwallpaper.com/wallpaper/2015/07/black-and-gold-wallpaper-iphone-22-background.jpg);
   color: gold;
 }
 
 header {
-    padding: 3em;
-    /* grid-row: 1 /span 1; */
+    /* padding: 3em; */
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
     color: gold;
     text-align: center;
 }
@@ -17,17 +20,24 @@ header h1, h2, h3{
   font-family: 'Permanent Marker', cursive;
   /* font-family: 'Fredericka the Great', cursive; */
 }
+.nav-menu {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
 
-.nav-content{
-  /* grid-column: 1; */
+.nav-content {
   list-style-type: none;
+  /* display: inline-block; */
 }
 
-.nav-item{
-  display:inline-block;
+.nav-item {
+  display: inline;
+  padding: 10px;
 }
 
-.nav-item a::after, a::before {
+.nav-item a::after, .nav-item a::before {
   display: inline-block;
   color: gold;
   content: ' - ';
@@ -40,8 +50,11 @@ header h1, h2, h3{
 }
 
 .contents-list {
-  /* display: grid;
-  grid-template-columns: 1fr 1fr 1fr; */
+  /* display: grid; */
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 6;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -83,14 +96,15 @@ a:hover {
 .blurb {
   font-size: 2em;
   border: dashed .1em #5a470b;
+  grid-area: 3 / 2 / 5 / 6;
 }
 
 .art-gallery {
   display: grid;
   grid-template: 1fr 2fr / 1fr 1fr;
-  /* display:flex;
+  display:flex;
   flex-direction: column;
-  text-align: left; */
+  text-align: left;
 }
 
 .art-gallery p {
@@ -117,23 +131,13 @@ a:hover {
   margin: 1rem;
 }
 
-.portfolio-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
 
-.portfolio-list li{
-  border: .2rem dotted gold;
-  padding: 10px;
-}
-
-.portfolio-list img {
-  width: 150px;
-  length: 150px;
-}
 
 body, .contents-list, .blurb, .art-gallery, .portfolio-list li {
   background-color: black;
+}
+
+footer {
+  grid-row-start: 7;
+  grid-column-start: 8;
 }
