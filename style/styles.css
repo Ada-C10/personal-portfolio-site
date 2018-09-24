@@ -1,0 +1,111 @@
+body {
+  display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: .5fr 1fr 1fr 1fr 1fr;
+  background: url(http://hdblackwallpaper.com/wallpaper/2015/07/black-and-gold-wallpaper-iphone-22-background.jpg);
+  color: gold;
+}
+
+header {
+    /* padding: 3em; */
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: gold;
+    text-align: center;
+}
+
+header h1, h2, h3{
+  font-family: 'Permanent Marker', cursive;
+  /* font-family: 'Fredericka the Great', cursive; */
+}
+.nav-menu {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.nav-content {
+  list-style-type: none;
+  /* display: inline-block; */
+}
+
+.nav-item {
+  display: inline;
+  padding: 10px;
+}
+
+.nav-item a::after, .nav-item a::before {
+  display: inline-block;
+  color: gold;
+  content: ' - ';
+}
+
+.top-quote {
+  font-style: italic;
+  /* padding-bottom: 5em; */
+  /* border-bottom: .2em solid;*/
+}
+
+.contents-list {
+  /* display: grid; */
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: dashed .1em #5a470b;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: gold;
+}
+
+a:hover {
+  color:#593a90;
+}
+
+.contents-list div{
+  font-size: 1.5rem;
+  align-items: center;
+  /* border: 2rem solid gold; */
+}
+
+.contents-list img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: .7em ridge #593a90;
+  /* margin-left: 1em; */
+  /* border-image: url(../images/goldcircle.jpg); */
+}
+
+.contents-list img:hover {
+  border: 1em ridge #593a90;
+}
+
+.blurb {
+  font-size: 2em;
+  border: dashed .1em #5a470b;
+  grid-area: 3 / 2 / 5 / 6;
+  margin-top: -2em;
+  padding: 1em;
+}
+
+body, .contents-list, .blurb, .art-gallery, .portfolio-list li {
+  background-color: black;
+}
+
+footer {
+  grid-row-start: 7;
+  grid-column-start: 8;
+}

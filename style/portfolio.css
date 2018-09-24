@@ -1,0 +1,22 @@
+.portfolio-items {
+  grid-area: 3 / 1 / 6 / 6;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio-list li{
+  border: .2rem dotted gold;
+  padding: 1em;
+  margin: 1em;
+  list-style: none;
+}
+
+.portfolio-list img {
+  width: 150px;
+  length: 150px;
+}
