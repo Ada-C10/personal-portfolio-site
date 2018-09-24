@@ -1,7 +1,7 @@
 body {
   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: .5fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: .5fr 1fr 1fr 1fr 1fr;
   background: url(http://hdblackwallpaper.com/wallpaper/2015/07/black-and-gold-wallpaper-iphone-22-background.jpg);
   color: gold;
 }
@@ -97,41 +97,9 @@ a:hover {
   font-size: 2em;
   border: dashed .1em #5a470b;
   grid-area: 3 / 2 / 5 / 6;
+  margin-top: -2em;
+  padding: 1em;
 }
-
-.art-gallery {
-  display: grid;
-  grid-template: 1fr 2fr / 1fr 1fr;
-  display:flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.art-gallery p {
-  font-size: 1.5rem;
-}
-
-.amy-art {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.amy-art img {
-  width: 50%;
-  height: 50%;
-}
-
-.manal-art {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin: 1rem;
-}
-
-
 
 body, .contents-list, .blurb, .art-gallery, .portfolio-list li {
   background-color: black;
