@@ -1,0 +1,43 @@
+
+.texture a:hover {
+  padding-right: 35%;
+  box-shadow: inset -20px -3px black;
+  background-color: #BBFFFF;
+  color: magenta;
+}
+
+.content {
+  display: grid;
+  color: black;
+  justify-self: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-bottom: 1em;
+
+}
+
+.fancy-things {
+grid-row: 1 / span 1;
+grid-column: 1 / span 1;
+justify-self: center;
+}
+
+.not-so-fancy {
+grid-row: 1 / span 1;
+grid-column: 2 / span 1;
+justify-self: center;
+}
+
+.less-sucking {
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
+  justify-self: center;
+}
+
+.blog-posts {
+  grid-row: 2 / span 1;
+  grid-column: 1 / span 3;
+  justify-self: center;
+
+}

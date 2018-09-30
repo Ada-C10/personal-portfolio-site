@@ -1,0 +1,82 @@
+
+.container{
+  display: grid;
+  grid-template-rows: 1fr 5fr 0.05fr;
+  grid-template-columns:1fr 5fr 0.5fr;
+  grid-template-areas:
+  "header header header"
+  "nav main aside"
+  "footer footer footer";
+  grid-gap: .75em;
+
+}
+
+header{
+  grid-area: header;
+  background-color: teal;
+}
+nav{
+  grid-area: nav;
+  background-color: tomato;
+
+}
+.side-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+
+}
+main{
+  grid-area: main;
+  background-color: lightblue;
+}
+aside{
+  grid-area: aside;
+  background-color: orange;
+}
+footer{
+  margin:0;
+  grid-area: footer;
+  background-color: lightgreen;
+}
+
+.project-section {
+  display: grid;
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.projects div {
+  display: grid;
+  max-width: 25%;
+  /* height: inherit somehow from width, square */
+  border: 0.125em solid black;
+  background-color: white;
+}
+
+.projects .project-name{
+  color: navy;
+  border: 0.125em solid black;
+  grid-row: 2 / span 1;
+  background-color: lightgray;
+}
+
+.projects img{
+max-width: 100%;
+/* size: cover; */
+}
+
+.projects p{
+  color: navy;
+  grid-row: 1 / span 1;
+}
+
+.side-nav ul{
+  display: grid;
+}
