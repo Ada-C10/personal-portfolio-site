@@ -1,0 +1,51 @@
+nav a:hover{
+  color: #dda281;
+}
+
+
+.greeting{
+  background-image: url("../images/balance.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 86vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting h2{
+  font-family: 'Muli', sans-serif;
+  font-size: 2em;
+  letter-spacing: 1px;
+  margin-bottom: -15px;
+}
+
+.greeting h3:nth-of-type(1){
+  font-family: 'Niconne', cursive;
+  font-size: 1.7em;
+  margin-bottom: 0px;
+}
+
+.greeting h3:nth-of-type(2){
+  font-family: 'Muli', sans-serif;
+  animation-name: color_change;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes color_change {
+  0% { opacity: 0}
+  10% { opacity: .2}
+  20% { opacity: .4}
+  30% { opacity: .6}
+  40% { opacity: .8}
+  50% { opacity: 1}
+  60% { opacity: .8}
+  70% { opacity: .6}
+  80% { opacity: .4}
+  80% { opacity: .2}
+  100% { opacity: 0}
+}

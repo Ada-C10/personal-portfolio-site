@@ -1,0 +1,12 @@
+main{
+  padding: 60px;
+  min-height: 70vh;
+}
+
+main p{
+  letter-spacing: .2px;
+}
+
+header a:hover{
+  color: rgb(178, 132, 242);
+}

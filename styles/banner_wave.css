@@ -1,0 +1,165 @@
+/* CSS Animation for header */
+#banner_wave{
+  display: flex;
+  flex-direction: row;
+}
+
+#banner_wave h3:nth-of-type(8){
+  animation-name: color_wave_1;
+	animation-duration: 1.75s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color_wave_1 {
+  0% { opacity: 1}
+  10% { opacity: .8}
+  20% { opacity: .6}
+  30% { opacity: .4}
+  40% { opacity: .2}
+  50% { opacity: 0}
+  60% { opacity: .2}
+  70% { opacity: .4}
+  80% { opacity: .6}
+  80% { opacity: .8}
+  100% { opacity: 1}
+}
+
+#banner_wave h3:nth-of-type(7){
+  animation-name: color_wave_2;
+	animation-duration: 1.75s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color_wave_2 {
+  0% { opacity: .8}
+  10% { opacity: .6}
+  20% { opacity: .4}
+  30% { opacity: .2}
+  40% { opacity: 0}
+  50% { opacity: .2}
+  60% { opacity: .4}
+  70% { opacity: .6}
+  80% { opacity: .8}
+  80% { opacity: 1}
+  100% { opacity: .8}
+}
+
+#banner_wave h3:nth-of-type(6){
+  animation-name: color_wave_3;
+	animation-duration: 1.75s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color_wave_3 {
+  0% { opacity: .6}
+  10% { opacity: .4}
+  20% { opacity: .2}
+  30% { opacity: 0}
+  40% { opacity: .2}
+  50% { opacity: .4}
+  60% { opacity: .6}
+  70% { opacity: .8}
+  80% { opacity: 1}
+  80% { opacity: .8}
+  100% { opacity: .6}
+}
+
+#banner_wave h3:nth-of-type(5){
+  animation-name: color_wave_4;
+	animation-duration: 1.75s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color_wave_4 {
+  0% { opacity: .4}
+  10% { opacity: .2}
+  20% { opacity: 0}
+  30% { opacity: .2}
+  40% { opacity: .4}
+  50% { opacity: .6}
+  60% { opacity: .8}
+  70% { opacity: 1}
+  80% { opacity: .8}
+  80% { opacity: .6}
+  100% { opacity: .4}
+}
+
+#banner_wave h3:nth-of-type(4){
+  animation-name: color_wave_5;
+	animation-duration: 1.75s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color_wave_5 {
+  0% { opacity: .2}
+  10% { opacity: 0}
+  20% { opacity: .2}
+  30% { opacity: .4}
+  40% { opacity: .6}
+  50% { opacity: .8}
+  60% { opacity: 1}
+  70% { opacity: .8}
+  80% { opacity: .6}
+  80% { opacity: .4}
+  100% { opacity: .2}
+}
+
+#banner_wave h3:nth-of-type(3){
+  animation-name: color_wave_6;
+	animation-duration: 1.75s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color_wave_6 {
+  0% { opacity: 0}
+  10% { opacity: .2}
+  20% { opacity: .4}
+  30% { opacity: .6}
+  40% { opacity: .8}
+  50% { opacity: 1}
+  60% { opacity: .8}
+  70% { opacity: .6}
+  80% { opacity: .4}
+  80% { opacity: .2}
+  100% { opacity: 0}
+}
+
+#banner_wave h3:nth-of-type(2){
+  animation-name: color_wave_7;
+	animation-duration: 1.75s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color_wave_7 {
+  0% { opacity: .2}
+  10% { opacity: .4}
+  20% { opacity: .6}
+  30% { opacity: .8}
+  40% { opacity: 1}
+  50% { opacity: .8}
+  60% { opacity: .6}
+  70% { opacity: .4}
+  80% { opacity: .2}
+  80% { opacity: 0}
+  100% { opacity: .2}
+}
+
+#banner_wave h3:nth-of-type(1){
+  animation-name: color_wave_8;
+	animation-duration: 1.75s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color_wave_8 {
+  0% { opacity: .4}
+  10% { opacity: .6}
+  20% { opacity: .8}
+  30% { opacity: 1}
+  40% { opacity: .8}
+  50% { opacity: .6}
+  60% { opacity: .4}
+  70% { opacity: .2}
+  80% { opacity: 0}
+  80% { opacity: .2}
+  100% { opacity: .4}
+}
