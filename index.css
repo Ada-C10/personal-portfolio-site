@@ -1,0 +1,83 @@
+/* * {
+  border: 1px solid black;
+} */
+
+html, body {
+  height: 100%;
+  background-color: #F56038;
+}
+
+.body-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+/* nav section */
+.nav-container ul li {
+  list-style: none;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 1.5em;
+  font-family: 'Quattrocento Sans', sans-serif;;
+}
+
+.nav-container a:link, a:visited {
+  text-decoration: none;
+  color: #F3ECE1;
+}
+
+.nav-container a:hover, a:active {
+  text-decoration: underline;
+  font-size: 1.75em;
+  color: #364A66;
+  transition: 350ms ease;
+}
+
+/* intro section */
+.intro {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-left: -10%;
+}
+
+.intro h1 {
+  display: inline-block;
+  font-family: 'Maitree', serif;
+  font-style: bold;
+  letter-spacing: 30px;
+  font-size: 8em;
+  margin-top: 25%;
+  text-align: center;
+  color: #364A66;
+  border-bottom-style: solid;
+  border-bottom-color: #364A66;
+}
+
+.intro h3 {
+  /* display: flex;
+  justify-content: center; */
+  margin-top: -8%;
+  font-size: 3.5em;
+  font-weight: 100;
+  text-align: left;
+  color: #F3ECE1;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.intro p {
+  text-align: right;
+  margin-top: 6%;
+  color: #F3ECE1;
+  font-size: 1.2em;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+
+footer {
+  font-family: 'Maitree', serif;
+  margin-left: 4em;
+  margin-top: 10em;
+  color: #364A66;
+  font-size: .8em;
+  letter-spacing: 1px;
+}

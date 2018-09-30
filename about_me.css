@@ -1,0 +1,127 @@
+/* * {
+  border: 1px solid black;
+} */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #F56038;
+}
+
+.body-container {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+/* nav section  */
+.nav-container nav ul {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3em;
+}
+
+.nav-container ul li {
+  list-style: none;
+  padding: 10px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+.nav-container a:link, a:visited {
+  text-decoration: none;
+  color: #F3ECE1;
+}
+
+.nav-container a:hover, a:active {
+  text-decoration: underline;
+  color: #364A66;
+  transition: all 350ms ease;
+}
+
+/* about me paragraph */
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Maitree', serif;
+  color: #F3ECE1;
+  font-size: 3em;
+}
+
+.blurb {
+  margin-top: 10%;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #F3ECE1;
+  letter-spacing: .8px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  /* height: 50%;
+  width: 50%; */
+}
+
+/* contact me form */
+.contact {
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #F3ECE1;
+  margin-top: 30.5%;
+  letter-spacing: 2px;
+}
+
+.contact-form {
+  padding-right: 4em;
+}
+
+.contact-form-stuff {
+position: relative;
+}
+
+.contact-form-stuff > .input {
+display: block;
+width: 100%;
+margin-bottom: 1.3em;
+}
+
+.contact-form-stuff > textarea {
+resize: both;
+min-width: 100%;
+min-height: 10em;
+height: 10em;
+background: #FFF;
+}
+
+.contact-form-stuff > label {
+font-size: 0.8em;
+position: absolute;
+top: .3em; left: .5em;
+font-family: 'Quattrocento Sans', sans-serif;
+font-weight: 300;
+color: #364A66;
+text-transform: uppercase;
+transition: all 300ms linear;
+}
+
+.contact-form-stuff > .input:focus + label,
+.contact-form-stuff > .input:valid + label {
+transform: translateY(-1.7em);
+transform-origin: bottom left;
+}
+
+.button {
+  border: #F3ECE1;
+  border-radius: 3px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  color: #364A66;
+  background-color: #F3ECE1;
+  padding: 5px 10px;
+}
+
+.button:hover {
+  border: 1px solid #F3ECE1;
+  background-color: #364A66;
+  color: #F3ECE1;
+  transition: 350ms ease;
+}
