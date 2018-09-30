@@ -1,0 +1,28 @@
+
+main ul > * {
+  display: flex;
+  flex-direction: column;
+}
+
+main ul li > * {
+  padding: 1% 1%;
+}
+
+main a {
+  border: double 5px pink;
+  border-radius: 20px;
+  background-color: #4286f4;
+  color: black;
+  padding: .5%;
+  margin-right: auto;
+}
+
+button {
+  font-size: 70%;
+  padding: 0.5%;
+  color: white;
+}
+
+button:hover {
+  font-size: 1.1rem;
+}

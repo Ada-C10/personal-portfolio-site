@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+h3 {
+  font-size: 150%;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  border-bottom: dotted pink 5px;
+
+}
+article ul {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: space-around;
+}
+
+p {
+  line-height: 150%;
+}
+
+.poem p{
+  line-height: 200%;
+  text-align: center;
+}
+
+.date {
+  align-self: flex-start;
+}
+
+.time {
+  align-self: flex-end;
+}
+
+h3, p {
+  padding-left: 10%;
+}

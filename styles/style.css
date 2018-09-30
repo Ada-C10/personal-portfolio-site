@@ -1,0 +1,45 @@
+/* * {
+  border: red solid 1px;
+} */
+
+body {
+  background-color: #f1e6f7;
+  color: #042389;
+  font-family: Arial;
+  margin-left: 20%;
+  margin-right: 20%
+}
+
+nav {
+  background-color: white;
+  border: solid pink 5px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+h1, h3 {
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav ul li:hover {
+  font-size: 1.6rem;
+}
+
+nav ul li:active {
+
+}
+
+a {
+  text-decoration: none;
+}
