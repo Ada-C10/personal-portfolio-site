@@ -1,0 +1,15 @@
+main {
+  min-height: 600px;
+}
+
+
+.project {
+  text-align: center;
+  padding: 20px 50px;
+}
+
+
+.name:hover{
+  text-transform: uppercase;
+  font-size: 1.2em;
+}

@@ -1,0 +1,13 @@
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.face img {
+  padding: 3px;
+  border: 2px dotted rgba(130, 186, 173, 0.68);
+  border-radius: 50%;
+  width: 225px;
+  height: auto;
+  margin-bottom: 10px;
+}

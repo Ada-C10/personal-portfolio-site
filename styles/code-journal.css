@@ -1,0 +1,37 @@
+/* ENTIRE PAGE */
+
+.grid-container {
+  grid-template-columns: 200px 60% auto;
+}
+
+
+/* MAIN CONTENT  */
+
+.content ul {
+  list-style-type: circle;
+}
+
+.blog-post {
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(90, 102, 92);
+}
+
+.blog-post h4 {
+  display: inline;
+}
+
+.post-title {
+  font-size: 1.5em;
+  margin-bottom: -20px;
+  color: rgb(90, 102, 92);
+}
+
+.post-date:before {
+  content: "date: ";
+  color: rgb(90, 102, 92);
+}
+
+.post-author:before {
+  content: "by: ";
+  color: rgb(90, 102, 92);
+}
