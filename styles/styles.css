@@ -1,0 +1,425 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, black, white);
+}
+
+section, nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  position: absolute;
+}
+
+.heading {
+  font-size: 1.5em;
+  font-family: Helvetica;
+  text-shadow: 4px 2.5px 2px deeppink,
+               -4px -2.5px 2px aqua;
+  color: yellow;
+  background-color: palegreen;
+  background-position: center;
+  display: inline-block;
+  box-shadow: 5px 10px;
+  padding: 10px;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  white-space: nowrap;
+}
+
+.one {
+  animation-name: example2, spin;
+  animation-duration: 8s, 6s;
+  animation-delay: 1.5s, 9.5s;
+}
+
+
+
+@keyframes spin {
+  from {transform: rotateZ(0deg);}
+  to {transform: rotateZ(359.9deg);}
+}
+
+@keyframes flip2 {
+  from {transform: rotateZ(0deg);}
+  to {transform: rotateZ(359.9deg);}
+  from {background-image: linear-gradient(to bottom right, red, yellow);}
+  to {background-image: linear-gradient(to bottom right, yellow, red);}
+}
+
+.two {
+  animation-duration: 5s;
+  animation-delay: 3s;
+}
+
+.hi {
+   animation-name: shake, example2;
+   animation-duration: 3s, 30s;
+   animation-iteration-count: infinite;
+}
+ /* {
+   animation-name: example2;
+   animation-duration: 4s;
+} */
+
+@keyframes shake {
+    0% { transform: translate(0px, 1px) rotate(0deg); }
+    10% { transform: translate(-10px, -2px) rotate(-3deg); }
+    20% { transform: translate(8px, 10px) rotate(4deg); }
+    30% { transform: translate(3px, 9px) rotate(0deg); }
+    40% { transform: translate(1px, -10px) rotate(5deg); }
+    50% { transform: translate(-10px, 8px) rotate(-1deg); }
+    60% { transform: translate(-9px, 1px) rotate(-4deg); }
+    70% { transform: translate(15px, -10px) rotate(-1deg); }
+    80% { transform: translate(10px, 10px) rotate(1deg); }
+    90% { transform: translate(0px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, 0px) rotate(-1deg); }
+}
+
+.three {
+  background: linear-gradient(90deg, magenta, yellow, magenta);
+background-size: 2000% 2000%;
+
+animation-name: AnimationName;
+animation-direction: reverse;
+animation-timing-function: ease-in-out;
+animation-duration: 3s;
+
+/*   animation-delay: 1s;
+  animation-name: ;
+  animation-direction: reverse; */
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    100%{background-position:100% 50%}
+}
+
+.heading:hover {
+  font-family: Helvetica;
+  text-shadow: 4px 2.5px 2px aqua,
+               -4px -2.5px 2px aqua;
+  color: skyblue;
+  background-color: palegreen;
+  background-position: center;
+  display: inline-block;
+  box-shadow: 5px 10px yellow;
+  padding: 10px;
+}
+
+@keyframes example2 {
+    0% {background-color: palegreen;}
+  20% {background-color: palegreen;}
+    30% {background-color: aqua;}
+  50% {background-color: aqua;}
+  60% {background-color: pink;}
+  80% {background-color: pink;}
+  90% {background-color: black;}
+  100% {background-color: palegreen;}
+}
+
+.portfolio {
+  position: absolute;
+  top: 40px;
+  right: 120%;
+  z-index: 2;
+  font-size: 3em;
+  opacity: 0;
+}
+
+.circle {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  opacity: .9;
+  background-color: pink;
+  position: absolute;
+  top: 75px;
+  left: -85%;
+/*   box-shadow: 6px 8px 0px -2px yellow,
+    0px 5px 15px -4px gray; */
+}
+
+.circle2 {
+  width: 182px;
+  height: 182px;
+  border-radius: 50%;
+  background-image: linear-gradient(red, yellow);
+  position: absolute;
+  top: 71.5px;
+  left: -87%;
+  box-shadow: 0px 0px 20px -4px gray;
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.circlep:hover .circle {
+  background-color: black;
+  opacity: .8;
+}
+
+.circlep:hover .portfolio {
+  opacity: 1;
+  color: white;
+  text-shadow: 0px 0px 3px black;
+}
+
+.box {
+  width: 120px;
+  height: 220px;
+  background-color: yellow;
+  box-shadow: 1px 1px 0px 6px lightyellow,
+    2.5px 2px 28px -2px gray;
+  position: absolute;
+  top: 200px;
+  left: -50%;
+}
+
+.box:hover {
+    background-color: chartreuse;
+    box-shadow:
+    2.5px 2px 15px 0px gray;
+    opacity: .6;
+}
+
+.diary {
+  position: absolute;
+  top: 160px;
+  right: 150%;
+  z-index: 2;
+  font-size: 3em;
+  opacity: 0;
+  animation-name: enterbottom;
+  animation-duration: 10s;
+  animation-timing-function: ease;
+}
+
+.boxd:hover .diary {
+  opacity: 1;
+  color: white;
+  text-shadow: 0px 0px 100px black;
+}
+
+@keyframes spin {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.box2 {width: 100px;
+  height: 100px;
+  background-color: mintcream;
+  box-shadow: 0px 2px 0px 6px violet,
+    22px 30px 28px -5px gray;
+  position: absolute;
+  top: 50px;
+  right: -80px;
+  transform: rotate(3deg);
+}
+
+.box2:hover {
+  background-color: white;
+  box-shadow: 0px 2px 0px 6px black,
+    22px 30px 28px -5px gray;
+  animation-name: spin3;
+  animation-duration: 4s;
+}
+
+.myspace {
+  opacity: 0;
+  position: absolute;
+  left: 10px;
+  font-size: 2em;
+  font-style: italic;
+}
+
+.box2:hover .myspace {
+  opacity: 1;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+
+@keyframes spin3 {
+  from {transform: rotate(3deg);}
+  to {transform: rotate(363deg);}
+}
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-left: 120px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 68px solid pink;
+  opacity: .35;
+/*   box-shadow: 0px 2px 0px 6px violet,
+    22px 30px 28px -5px gray; */
+  position: absolute;
+  top: 235px;
+  right: -170px;
+  transform: rotate(-30deg);
+}
+
+.triangle3 {
+  width: 0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 130px solid lemonchiffon;
+/*   box-shadow: 0px 2px 0px 6px violet,
+    22px 30px 28px -5px gray; */
+  position: absolute;
+  top: 255px;
+  right: -210px;
+  transform: rotate(-4deg);
+}
+
+.triangle4 {
+  width: 0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 130px solid magenta;
+/*   box-shadow: 0px 2px 0px 6px violet,
+    22px 30px 28px -5px gray; */
+  position: absolute;
+  top: 262px;
+  right: -224px;
+  transform: rotate(-4deg);
+}
+
+.triangle3:hover {
+  border-bottom: 130px solid aqua;
+  opacity: .9;
+}
+
+.triangle5 {
+  width: 0px;
+  height: 0px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 130px solid black;
+  opacity: .3;
+/*   box-shadow: 0px 2px 0px 6px violet,
+    22px 30px 28px -5px gray; */
+  position: absolute;
+  top: 259px;
+  right: -218px;
+  transform: rotate(-4deg);
+}
+
+.triangle52 {
+  width: 0px;
+  height: 0px;
+  border-left: 120px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 68px solid hotpink;
+  opacity: .4;
+/*   box-shadow: 0px 2px 0px 6px violet,
+    22px 30px 28px -5px gray; */
+  position: absolute;
+  top: 235px;
+  right: -203px;
+  transform: rotate(-30deg);
+}
+
+.triangle53 {
+  width: 0px;
+  height: 0px;
+  border-left: 120px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 68px solid pink;
+  opacity: .5;
+/*   box-shadow: 0px 2px 0px 6px violet,
+    22px 30px 28px -5px gray; */
+  position: absolute;
+  top: 219px;
+  right: -196px;
+  transform: rotate(-30deg);
+}
+
+.circle4 {
+  width: 182px;
+  height: 182px;
+  border-radius: 50%;
+  background-image: linear-gradient(white, violet, orchid);
+  position: absolute;
+  top: 220px;
+  right: -214px;
+  box-shadow: 0px 0px 20px -4px gray;
+  animation-name: spin2;
+  animation-duration: 6s;
+  animation-delay: 9.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  border: 3px dashed;
+}
+
+@keyframes spin2 {
+  0% {transform: rotate(0deg);}
+  70% {transform: rotate(-360deg);}
+  100% {transform: rotate(-360deg);}
+}
+
+.circle3:hover {
+  background-color: black;
+}
+
+.input {
+  position: relative;
+  left: 2.5px;
+  top: -5px;
+  height: 21px;
+}
+
+input {
+  display: inline;
+  margin-top: 7px;
+}
+
+.shapes2 {
+  z-index: -1;
+  animation-name: enterright;
+  animation-duration: 16s;
+  animation-timing-function: ease;
+}
+
+.box {
+  z-index: -1;
+  animation-name: enterbottom;
+  animation-duration: 16s;
+  animation-timing-function: ease;
+}
+
+.main {
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+@keyframes fadein {
+  from {opacity: 0};
+  to {opacity: 1};
+}
+
+@keyframes enterbottom {
+  from {transform: translateX(-34em)};
+  to {transform: translateX(0em)};
+}
+
+@keyframes enterright {
+  from {transform: translateX(39em)};
+  to {transform: translateX(0em)};
+}
+
+.circles {
+  animation-name: fadein, enterbottom;
+  animation-duration: 14s;
+  z-index: -1;
+}
