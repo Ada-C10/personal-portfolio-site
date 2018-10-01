@@ -1,0 +1,105 @@
+.header {
+  text-align: center;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background-image: url("../images/boat.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 14em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header h2 {
+color: white;
+font-size: 2em;
+opacity: .6;
+padding: .2em 6em;
+background-color: transparent;
+}
+
+.intro {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: 1em 3em;
+  border: 1px dotted gray;
+  margin: 2em 8em;
+}
+
+.main {
+  grid-row-start: 4;
+  grid-row-end: 5;
+  margin: .5em 8em 2em 8em;
+  padding: 1em 3em;
+}
+
+.pursuit {
+  margin-bottom: 4em;
+  border-bottom: 1px dotted gray;
+  padding-bottom: 2em;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 1fr 1fr 5fr;
+}
+
+
+.pursuit h3 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 0;
+  margin: 0;
+  color: #fa2f4b;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+
+.pursuit h4 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 0;
+  margin: 0;
+  color: #232b2d;
+  font-size: 1em;
+}
+
+.pursuit p {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding-right: 1em;
+}
+
+.pursuit img {
+
+  max-width: 100%;
+}
+
+.image {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding: 1em;
+  width: 30em;
+  max-width: 80%;
+
+}
+
+h2 {
+  padding: .2em;
+  text-align: center;
+  font-size: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+.footer {
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
