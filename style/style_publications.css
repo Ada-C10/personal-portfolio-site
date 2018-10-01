@@ -1,0 +1,81 @@
+@import url('http://fonts.googleapis.com/css?family=Economica');
+@import url('http://fonts.googleapis.com/css?family=Special+Elite');
+@import url('http://fonts.googleapis.com/css?family=Tangerine');
+
+body {
+  font-family: Economica;
+  color: black;
+  text-align: left;
+  background-color: seashell;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: Special Elite;
+  padding-bottom: 0;
+  padding-top: 12rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px double gray;
+  background-image: url("../images/background.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+.banner h2 {
+  grid-column-start: 2;
+  font-size: 2rem;
+  text-align: center;
+}
+.pub {
+  padding: 10px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#home {
+  grid-column-start: 1;
+  text-align: center;
+}
+#about {
+  grid-column-start: 2;
+  text-align: center;
+}
+
+#portfolio {
+  grid-column-start: 3;
+  text-align: center;
+}
+
+#hobbies {
+  grid-column-start: 4;
+  text-align: center;
+}
+
+.menu li {
+  border-radius: 12px;
+  border:1px dotted gray;
+  background-color: wheat;
+  font-style: bold;
+  padding:15px;
+  font-size: 20px;
+  margin: 4px 4px;
+}

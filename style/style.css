@@ -1,0 +1,142 @@
+@import url('http://fonts.googleapis.com/css?family=Economica');
+@import url('http://fonts.googleapis.com/css?family=Special+Elite');
+@import url('http://fonts.googleapis.com/css?family=Tangerine');
+
+body {
+  font-family: Economica;
+  color: black;
+  text-align: center;
+  background-color: seashell;
+  padding: 0;
+  margin: 0;
+  bottom: 0;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  font-family: Special Elite;
+  font-size: 2rem;
+  align-items: center;
+  padding-bottom: 1rem;
+  border-bottom: 5px double gray;
+  background-image: url("../images/background.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding-top: 15rem;
+  padding-bottom: 1rem;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.phrase {
+  padding-top: 1rem;
+  padding-bottom: 10rem;
+  color: DarkViolet;
+}
+
+.phrase h3 {
+  overflow: hidden;
+  border-right: .15em solid gray;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: typing 3.5s steps(40, end),
+  blink-caret .85s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 50% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 200px;
+}
+
+#about {
+  grid-column-start: 1;
+  text-align: center;
+}
+
+#portfolio {
+  grid-column-start: 2;
+  text-align: center;
+}
+
+#publications {
+  grid-column-start: 3;
+  text-align: center;
+}
+
+#hobbies {
+  grid-column-start: 4;
+  text-align: center;
+}
+
+.menu li {
+  border-radius: 12px;
+  border:1px dotted gray;
+  background-color: wheat;
+  font-style: bold;
+  padding:20px;
+  display:inline;
+  font-size: 25px;
+  margin: 4px 4px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: sienna;
+  margin: 0;
+  bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: white;
+}
+
+h4 {
+  display: block;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-bottom: 0;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 0.5em;
+}
+
+#email {
+  grid-column-start: 1;
+}
+
+#linkedin {
+  grid-column-start: 2;
+}
+
+#github {
+  grid-column-start: 3;
+}
