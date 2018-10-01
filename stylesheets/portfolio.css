@@ -1,0 +1,53 @@
+body {
+  margin: 50px;
+  border-color: #02323F;
+  border-style: solid;
+  color: #02323F;
+}
+
+h2 a {
+  color: #02323F;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: gray;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin: 75px
+}
+
+#header-hotel, #hotel {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  text-align: justify;
+  background-color: #E4E5E3;
+}
+
+#header-grocery-store, #grocery-store {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  text-align: justify;
+  background-color: #bd9589;
+}
+
+#header-solar-system, #solar-system {
+  grid-column: 1 / 2;
+  grid-row: 2;
+  text-align: justify;
+  background-color: #bd9589;
+}
+
+#header-ride-share, #ride-share {
+  grid-column: 2 / 3;
+  grid-row: 2;
+  text-align: justify;
+  background-color: #E4E5E3;
+}
