@@ -1,0 +1,90 @@
+/* Dark Green: #1A535C */
+/*Bright Green: #4ECDC4 */
+/* White-ish: #F7FFF7 */
+/*Orange: #FF6B6B */
+/* Yellow: #FFE66D */
+
+
+
+* {
+  font-family: 'Cabin', sans-serif;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+  font-size: 16px;
+}
+
+a, p, sub {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #F7FFF7;
+}
+
+nav {
+  height: 20%;
+  width: auto;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #4ECDC4;
+  color: #F7FFF7;
+}
+
+ nav a:hover {
+  background-color: #F7FFF7;
+  color: #4ECDC4;
+}
+
+nav a {
+  display: block;
+  width: 30%;
+  text-align: center;
+  padding: 1rem;
+}
+
+header {
+  /* height: 60%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 3rem 0;
+  text-align: center;
+  font-stretch: semi-expanded;
+  font-style: italic;
+  color: #FF6B6B;
+}
+
+sub {
+  display: block;
+  padding: 2rem;
+  color: #1A535C;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+  background-color: #1A535C;
+}
+
+small {
+  color: #F7FFF7;
+  font-size: 0.75rem;
+}

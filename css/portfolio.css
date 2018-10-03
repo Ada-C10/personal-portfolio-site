@@ -1,0 +1,49 @@
+
+/* Dark Green: #1A535C */
+/*Bright Green: #4ECDC4 */
+/* White-ish: #F7FFF7 */
+/*Orange: #FF6B6B */
+/* Yellow: #FFE66D */
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  border: 10px solid #FF6B6B;
+  margin: 1rem;
+  padding: 1rem;
+  flex: 1fr 1fr;
+}
+
+#projects li {
+  width: 40%;
+  padding: 3rem;
+  margin: 1rem;
+  border-style: outset;
+}
+
+#projects li:first-child, #projects li:last-child {
+  background-color: #4ECDC4;
+  color: white;
+}
+
+#projects li:nth-child(2), #projects li:nth-child(3){
+  background-color: #1A535C;
+  color: white;
+}
+
+#projects li:hover {
+  border-style: inset;
+}
+
+#projects li a {
+  text-align: center;
+  margin: auto;
+}
+
+#projects li a:hover {
+  font-size: 2rem;
+}

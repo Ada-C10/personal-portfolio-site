@@ -1,0 +1,51 @@
+/* Dark Green: #1A535C */
+/*Bright Green: #4ECDC4 */
+/* White-ish: #F7FFF7 */
+/*Orange: #FF6B6B */
+/* Yellow: #FFE66D */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+img {
+  align-self: center;
+  justify-content: center;
+  height: 18rem;
+  border-radius: 50%;
+  border: 2px solid #1A535C;
+}
+
+h1 {
+
+}
+
+header p {
+
+
+}
+
+main {
+  margin: 1rem;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: #FFE660;
+  border-left: 10px solid #FF6B6B;
+}
+
+
+article h2 {
+  font-size: 1.5rem;
+}
+
+article p {
+  font-size: 1.25rem;
+}
