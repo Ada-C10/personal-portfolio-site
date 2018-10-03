@@ -1,0 +1,54 @@
+.about-grid-container {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  border-top: thick solid #BA01FF;
+  margin: 2em;
+  align-items: center;
+  justify-items: center;
+}
+
+.bio {
+  grid-column: 1 / 2;
+  padding: 1em;
+  padding-left: 3em;
+  padding-right: 1em;
+}
+
+.bio-photo {
+  grid-column: 2 / 4;
+  padding-top: 3em;
+  padding-right: 3em;
+
+}
+
+.hobby-list {
+  padding: 1em;
+  text-align: center;
+}
+
+img {
+  padding: 1em;
+}
+
+.img-section {
+  grid-column: 1 / 5;
+}
+
+.hobby-img-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-links {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #BA01FF;
+  border: thin solid #BA01FF;
+  padding: 5px;
+}
+
+.portfolio-links:hover {
+  background-color: #BA01FF;
+  color: #FAECFF;
+}

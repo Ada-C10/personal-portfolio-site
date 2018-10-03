@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Baloo+Tammudu|Fugaz+One|Luckiest+Guy|Roboto');
+
+body {
+  background-color: rgba(237, 230, 236, 0.5);
+  font-family: "Roboto";
+  color: #BA01FF;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+nav ul li a:hover {
+  font-weight: bold;
+  background-color: #BA01FF;
+  color: #FAECFF;
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li{
+  font-size: 1.5em;
+}
+
+footer {
+  font-size: small;
+}
+
+footer p {
+  padding-left: 1em;
+}
+
+nav ul li a {
+  color: #BA01FF;
+  text-decoration: none;
+}
+
+#jane {
+  color: #BA01FF;
+  font-size: 200%;
+  font-family: Fugaz One;
+  text-align: center;
+  padding: .5em;
+  font-size: 5em;
+}
+
+#jane:hover {
+  -webkit-animation: neon6 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon6 1.5s ease-in-out infinite alternate;
+  animation: neon6 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}
+
+@-moz-keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}
+
+@keyframes neon6 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 35px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 75px #ff00de;
+  }
+}

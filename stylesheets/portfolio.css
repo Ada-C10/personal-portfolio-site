@@ -1,0 +1,41 @@
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.0;
+  font-size: 3em;
+  background-color: rgba(186, 1, 255, 0.4);
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+}
+.image-text:hover {
+  opacity: 1;
+  width: 100%;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  transform: scale(0.7);
+
+}
+
+.images-container  {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  border-top: thick solid #BA01FF;
+  margin: 2em;
+
+}
+
+h2 {
+  color: #BA01FF;
+}
