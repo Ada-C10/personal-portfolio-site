@@ -1,0 +1,156 @@
+* {
+  background-color: lightgray;
+}
+
+[href]:hover {
+  background-color: peachpuff;
+}
+
+nav a, footer p {
+  text-decoration: none;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  border-radius: 100%;
+  width: 15rem;
+  height: 15rem;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3rem;
+  padding: 5rem 2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: grid;
+  grid-template-columns: 25rem 25rem;
+  grid-column-gap: 5%;
+  grid-row-gap: 5%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 3rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+#projectlist li [href]:hover {
+  border: 2px solid;
+  background-color: lightgray;
+}
+
+#projectlist li, #mainpage li {
+  display: block;
+  color: black;
+  text-align: left;
+}
+
+#projectlist li a, #mainpage li a {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-column-gap: 5%;
+  padding: 3%;
+  text-decoration: none;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+#mainpage li a {
+  grid-template-columns: 1fr;
+}
+
+#projectlist li strong {
+  grid-column: 1;
+}
+
+#projectlist li p {
+  grid-column: 2;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+
+div.description {
+  border: 1px solid;
+}
+
+article h3 {
+  font-size: x-large;
+  grid-column: 2;
+  margin-block-end: 0%;
+  border: 1px solid;
+}
+
+article ul li, article h3 {
+  text-align: center;
+  line-height: 1rem;
+  display: block;
+}
+
+article section {
+  grid-column: 2;
+  border: 1px solid;
+  grid-row-gap: 0%;
+}
+
+article ul, article ol {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+article ol li {
+  border: 1px dotted;
+  margin: 1%;
+  grid-column-gap: 0%;
+}
+
+article * {
+  font-family: sans-serif;
+  padding: 3%;
+  font-size: large;
+  text-align: left;
+  background-color: white;
+  font-weight: normal;
+}
+
+article img {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5%;
+    object-fit: cover;
+    margin: 2rem 2rem;
+}
+
+img.sideways {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 5%;
+  object-fit: cover;
+  margin: 2rem 2rem;
+}
