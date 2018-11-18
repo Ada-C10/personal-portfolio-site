@@ -55,12 +55,12 @@ height: 100px;
 
 .nav-list a {
   text-decoration: none;
-  color: rgba(168, 179, 172, 1);
+  color: lightblue;
   position: relative;
 }
 
 .nav-list a:hover{
-  color: rgb(135, 219, 166);
+  color: hotpink;
 }
 
 .nav-list  li {

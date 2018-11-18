@@ -2,13 +2,9 @@
   color: rgb(135, 219, 166)
 }
 
-.story > .change-button:hover ~ .story {
-  background: url("https://images.pexels.com/photos/458787/pexels-photo-458787.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
-}
-
 .story {
   height: 600px;
-  background-image: url("https://images.pexels.com/photos/355296/pexels-photo-355296.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-image: url("nature.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

@@ -4,7 +4,7 @@
 
 .story {
   height: 500px;
-  background-image: url("https://images.pexels.com/photos/247373/pexels-photo-247373.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-image: url("deerie.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,7 +45,8 @@
 }
 
 .about-me > div:nth-of-type(3):hover {
-  background-image:  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX6RPnsVHIf-cXoXzblvzOD1161E2VfV670pv-DLMA1hjTKTGTeg");
+  background-image:  url("sherlock.jpg");
+  background-repeat: no-repeat;
   color: transparent;
 }
 
