@@ -1,0 +1,107 @@
+body {
+  /* background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */ */
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Sonsie One';
+  font-size: 3em;
+  padding: 1em;
+}
+
+.brick {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+  height: 15%;
+  border-top: double black 10px;
+  border-bottom: double black 10px;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-around;
+  flex-wrap: wrap;
+  margin: 10%;
+}
+
+#projects > section {
+  box-shadow: 5px 5px;
+  width: 25em;
+  height: 25em;
+  padding: 3em;
+  border-radius: 50%;
+}
+
+
+.project1, .project2, .project3, .project4, .project5, .project6 {
+   border: solid 1em white;
+   box-sizing: border-box;
+   /** relative so that our ::before absolute block can position itself according to it's parent block **/
+   position: relative;
+   margin: 1em;
+}
+
+.project1 {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+}
+
+.project2 {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+  /* background-color: lightgreen; */
+  /* width: calc(25% - 8px); */
+}
+
+.project3 {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+}
+
+.project4 {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+
+}
+
+.project5 {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+
+}
+
+.project6 {
+  background-image: url("http://sfwallpaper.com/images/brick-wall-wallpaper-25.jpg");  /* background-size: cover; */
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  padding-top: 4em;
+}
+
+#projects .project1:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/startrly.png");
+}
+
+#projects .project2:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/hotel.png");
+}
+
+#projects .project3:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/rideshare.png");
+}
+
+#projects .project4:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/solar-system.png");
+}
+
+#projects .project5:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/hummus.png");
+}
+
+#projects .project6:hover {
+  transform: rotate(25deg);
+  background-image: url("../extra/book-review.png");
+}

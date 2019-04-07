@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Basic');
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Sonsie+One');
+
+body {
+    font-family: 'Basic';
+}
+
+#nav-bar {
+  background-color: white;
+}
+
+#nav-bar li:first-of-type {
+  font-family: 'Oleo Script';
+  margin-right: auto;
+}
+
+#nav-bar ul{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#nav-bar li {
+  list-style: none;
+  padding: 2em;
+  /* margin-left: 10em;
+  margin-right: 10em;
+  margin-top: 1em;
+  font-size: 1em; */
+}
