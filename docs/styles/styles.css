@@ -15,9 +15,23 @@ body {
 }
 
 header {
-  display: flex;
+  display: grid;
+  grid-gap: 5rem;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 5rem 20rem;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; */
+}
+
+.reader-alert {
+  background-color: yellow;
+  border: dashed hotpink 2px;
+  padding: 10px;
+  align-self: center;
+  grid-row-start: 2;
+  grid-column-end: span 2;
 }
 
 main {
